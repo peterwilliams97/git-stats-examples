@@ -24,7 +24,7 @@ e.g. For repository [cpython](https://github.com/python/cpython.git)
       │       │       │   └── oldest.txt      List of oldest commits for these files and authors
 
 
-### A closer look at [2015-12-29.28274d02.master/%5Ball-files%5D](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)
+### A closer look at [2015-12-29.28274d02.master/\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)
 
 This directory contains files that report on the age of `Guido van Rossum`'s `*.c`, `*.cpp` and `*.h`
 code in revision `d68ed6fc`, the `cpython` `2.7` branch on 2015-12-22.
