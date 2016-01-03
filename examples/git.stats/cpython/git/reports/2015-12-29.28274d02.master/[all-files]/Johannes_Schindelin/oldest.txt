@@ -1,0 +1,69 @@
+================================================================================
+Johannes Schindelin: 534 commits 15963 LoC
+................................................................................
+    1 LoC, 2005-07-31 b2c0bd6 [PATCH] add NO_CURL option to the Makefile
+    1 LoC,   Makefile
+................................................................................
+    3 LoC, 2005-08-02 7da71de [PATCH] Updates for cvs-migration.txt
+    3 LoC,   Documentation/gitcvs-migration.txt
+................................................................................
+   17 LoC, 2005-08-06 2c6e477 [PATCH] Assorted documentation patches
+    8 LoC,   Documentation/git-hash-object.txt
+    3 LoC,   Documentation/git-http-fetch.txt
+    2 LoC,   Documentation/git-diff-index.txt
+................................................................................
+    1 LoC, 2005-08-08 76cd8eb [PATCH] add *--no-merges* flag to suppress display of merge commits
+    1 LoC,   builtin/rev-list.c
+................................................................................
+   10 LoC, 2005-08-10 ef0bd2e [PATCH] Fix git-rev-parse's parent handling
+   10 LoC,   t/t6101-rev-parse-parents.sh
+................................................................................
+   46 LoC, 2005-08-17 35cc4bc [PATCH] When copying or renaming, keep the mode, please
+   42 LoC,   t/t4102-apply-rename.sh
+    4 LoC,   builtin/apply.c
+................................................................................
+    3 LoC, 2005-08-17 fbfd60d [PATCH] Also handle CVS branches with a '/' in their name
+    2 LoC,   git-cvsimport.perl
+    1 LoC,   Documentation/git-cvsimport.txt
+................................................................................
+    5 LoC, 2005-08-18 da13981 [PATCH] Add GIT glossary
+    5 LoC,   Documentation/glossary-content.txt
+................................................................................
+    1 LoC, 2005-08-18 f1671ec [PATCH] Assorted changes to glossary
+    1 LoC,   Documentation/glossary-content.txt
+................................................................................
+   36 LoC, 2005-10-09 730d48a [PATCH] If NO_MMAP is defined, fake mmap() and munmap()
+   32 LoC,   compat/mmap.c
+    4 LoC,   Makefile
+................................................................................
+    1 LoC, 2005-10-12 f2d6a25 Support custom build options in config.mak
+    1 LoC,   Makefile
+................................................................................
+   94 LoC, 2005-10-14 2ae6c70 Adapt tutorial to cygwin and add test case
+   92 LoC,   t/t1200-tutorial.sh
+    2 LoC,   Documentation/gittutorial.txt
+................................................................................
+    1 LoC, 2005-10-16 7baa3e8 Some curl versions lack curl_easy_duphandle()
+    1 LoC,   http-walker.c
+................................................................................
+    1 LoC, 2005-10-19 e175768 Fix cvsimport warning when called without --no-cvs-direct
+    1 LoC,   git-cvsimport.perl
+................................................................................
+    3 LoC, 2005-10-26 9e48b38 Work around missing hard links on FAT formatted media
+    3 LoC,   sha1_file.c
+................................................................................
+    4 LoC, 2005-10-26 e24317b Test in git-init-db if the filemode can be trusted
+    4 LoC,   builtin/init-db.c
+................................................................................
+  188 LoC, 2005-10-26 bd321bc Add git-name-rev
+  140 LoC,   builtin/name-rev.c
+   48 LoC,   Documentation/git-name-rev.txt
+................................................................................
+   43 LoC, 2005-10-28 6b17c67 Implement a test for git-fetch-pack/git-upload-pack
+   43 LoC,   t/t5500-fetch-pack.sh
+................................................................................
+   13 LoC, 2005-10-28 f0243f2 git-upload-pack: More efficient usage of the has_sha1 array
+   13 LoC,   upload-pack.c
+................................................................................
+   10 LoC, 2005-10-28 211b5f9 Support receiving server capabilities
+   10 LoC,   connect.c

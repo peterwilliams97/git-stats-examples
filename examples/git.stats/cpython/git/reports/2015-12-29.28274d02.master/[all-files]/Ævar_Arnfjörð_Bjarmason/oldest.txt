@@ -1,0 +1,75 @@
+================================================================================
+Ævar Arnfjörð Bjarmason: 219 commits 14688 LoC
+................................................................................
+   28 LoC, 2010-04-06 c9b5fde Add option to git-commit to allow empty log messages
+   21 LoC,   t/t7500-commit.sh
+    5 LoC,   Documentation/git-commit.txt
+    2 LoC,   builtin/commit.c
+................................................................................
+    2 LoC, 2010-05-08 9d488eb Move t6000lib.sh to lib-*
+    1 LoC,   t/t6002-rev-list-bisect.sh
+    1 LoC,   t/t6003-rev-list-topo-order.sh
+................................................................................
+    2 LoC, 2010-05-08 621fd7a Turn setup code in t2007-checkout-symlink.sh into a test
+    2 LoC,   t/t2007-checkout-symlink.sh
+................................................................................
+    1 LoC, 2010-05-08 cb82dbf git-svn documentation: minor grammar fix
+    1 LoC,   Documentation/git-svn.txt
+................................................................................
+    4 LoC, 2010-05-15 3052525 git-cvsserver: indent & clean up authdb code
+    4 LoC,   git-cvsserver.perl
+................................................................................
+   24 LoC, 2010-05-15 475357a git-cvsserver: Improved error handling for pserver
+   24 LoC,   git-cvsserver.perl
+................................................................................
+    5 LoC, 2010-05-15 70d5dd1 git-cvsserver: document making a password without htpasswd
+    5 LoC,   Documentation/git-cvsserver.txt
+................................................................................
+   12 LoC, 2010-05-15 1dd3f29 git-cvsserver: test for pserver authentication support
+   12 LoC,   t/t9400-git-cvsserver-server.sh
+................................................................................
+   58 LoC, 2010-05-16 031a027 git-cvsserver: authentication support for pserver
+   46 LoC,   git-cvsserver.perl
+   12 LoC,   Documentation/git-cvsserver.txt
+................................................................................
+   13 LoC, 2010-05-22 f030c96 git-submodule foreach: Add $toplevel variable
+    7 LoC,   t/t7407-submodule-foreach.sh
+    4 LoC,   Documentation/git-submodule.txt
+    2 LoC,   git-submodule.sh
+................................................................................
+    1 LoC, 2010-05-31 a6c6060 Makefile: remove redundant munging of @@INSTLIBDIR@@
+    1 LoC,   Makefile
+................................................................................
+    2 LoC, 2010-06-10 e8b15e6 sha1_file: Show the the type and path to corrupt objects
+    2 LoC,   sha1_file.c
+................................................................................
+    1 LoC, 2010-06-15 ef7a8e3 notes: Initialize variable to appease Sun Studio
+    1 LoC,   builtin/notes.c
+................................................................................
+    1 LoC, 2010-06-20 fce338a git-cvsserver: typo in a comment: bas -> has
+    1 LoC,   git-cvsserver.perl
+................................................................................
+    4 LoC, 2010-06-20 1f0eb51 git-cvsserver: fix error for invalid password formats
+    4 LoC,   git-cvsserver.perl
+................................................................................
+   14 LoC, 2010-06-25 d998bd4 test-lib: Make the test_external_* functions TAP-aware
+    7 LoC,   t/t9700/test.pl
+    4 LoC,   t/test-lib.sh
+    3 LoC,   t/t9700-perl-git.sh
+................................................................................
+    2 LoC, 2010-06-25 57e1538 test-lib: output a newline before "ok" under a TAP harness
+    2 LoC,   t/test-lib.sh
+................................................................................
+   18 LoC, 2010-06-25 fadb515 tests: Skip tests in a way that makes sense under TAP
+    3 LoC,   t/t9400-git-cvsserver-server.sh
+    3 LoC,   t/t9401-git-cvsserver-crlf.sh
+    2 LoC,   t/lib-git-svn.sh
+................................................................................
+   13 LoC, 2010-06-25 335f878 tests: Say "pass" rather than "ok" on empty lines for TAP
+    6 LoC,   t/t1020-subdirectory.sh
+    6 LoC,   t/t3700-add.sh
+    1 LoC,   t/t2102-update-index-symlinks.sh
+................................................................................
+   41 LoC, 2010-06-25 5099b99 test-lib: Adjust output to be valid TAP format
+   38 LoC,   t/README
+    3 LoC,   t/test-lib.sh

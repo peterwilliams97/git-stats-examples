@@ -1,0 +1,70 @@
+================================================================================
+Linus Torvalds: 620 commits 13907 LoC
+................................................................................
+  111 LoC, 2005-04-08 e83c516 Initial revision of "git", the information manager from hell
+   38 LoC,   cache.h
+   22 LoC,   read-cache.c
+   11 LoC,   README
+................................................................................
+   40 LoC, 2005-04-08 8bc9a0c Add copyright notices.
+    5 LoC,   builtin/cat-file.c
+    5 LoC,   builtin/commit-tree.c
+    5 LoC,   builtin/diff-files.c
+................................................................................
+    2 LoC, 2005-04-09 bf0c6e8 Make "cat-file" output the file contents to stdout.
+    2 LoC,   builtin/cat-file.c
+................................................................................
+   11 LoC, 2005-04-09 2022211 Add first cut at "fsck-cache" that validates the SHA1 object store.
+   11 LoC,   builtin/fsck.c
+................................................................................
+    2 LoC, 2005-04-09 1ea34e3 Make fsck-cache start parsing the object types, and checking their internal format.
+    2 LoC,   builtin/fsck.c
+................................................................................
+   36 LoC, 2005-04-10 eb38c22 Make "cache_name_pos()" available to others.
+   36 LoC,   read-cache.c
+................................................................................
+   11 LoC, 2005-04-10 734aab7 Make the cache stat information comparator public.
+    7 LoC,   cache.h
+    4 LoC,   read-cache.c
+................................................................................
+   26 LoC, 2005-04-10 33db5f4 Add a "checkout-cache" command which does what the name suggests.
+   26 LoC,   builtin/checkout-index.c
+................................................................................
+   32 LoC, 2005-04-10 197ee8c Make "write_cache()" and friends available as generic routines.
+   30 LoC,   read-cache.c
+    2 LoC,   cache.h
+................................................................................
+    2 LoC, 2005-04-10 83adac3 Make "read-tree" read the tree into the current directory cache.
+    2 LoC,   builtin/read-tree.c
+................................................................................
+    3 LoC, 2005-04-10 9174026 Add "diff-tree" program to show which files have changed between two trees.
+    3 LoC,   builtin/diff-tree.c
+................................................................................
+    2 LoC, 2005-04-10 d6d3f9d This implements the new "recursive tree" write-tree.
+    2 LoC,   builtin/commit-tree.c
+................................................................................
+   13 LoC, 2005-04-11 121481a Make "update-cache" a bit friendlier to use (and harder to mis-use).
+   10 LoC,   builtin/update-index.c
+    3 LoC,   read-cache.c
+................................................................................
+    2 LoC, 2005-04-11 73134b6 Add "-R" flag to "diff-tree", so that it will recursively traverse a tree of trees as it diffs them.
+    2 LoC,   builtin/diff-tree.c
+................................................................................
+    4 LoC, 2005-04-11 76e7f4e Fix off-by-one error in removal of cache entry.
+    4 LoC,   read-cache.c
+................................................................................
+    7 LoC, 2005-04-11 8ba0bbb Add connectivity tracking to fsck.
+    7 LoC,   builtin/fsck.c
+................................................................................
+  353 LoC, 2005-04-12 075b845 Add a COPYING notice, making it explicit that the license is GPLv2.
+  353 LoC,   COPYING
+................................................................................
+    3 LoC, 2005-04-12 9614b8d Fix stale index.lock file removal using "atexit()".
+    3 LoC,   builtin/update-index.c
+................................................................................
+   31 LoC, 2005-04-12 8695c8b Add "show-files" command to show the list of managed (or non-managed) files.
+   31 LoC,   builtin/ls-files.c
+................................................................................
+   59 LoC, 2005-04-12 2744b23 Start of early patch applicator tools for git.
+   53 LoC,   builtin/mailsplit.c
+    6 LoC,   builtin/mailinfo.c

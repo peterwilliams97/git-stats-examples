@@ -1,0 +1,69 @@
+================================================================================
+Jeff King: 1576 commits 31776 LoC
+................................................................................
+    4 LoC, 2006-05-23 6a1871e cvsimport: use git-update-index --index-info
+    4 LoC,   git-cvsimport.perl
+................................................................................
+   33 LoC, 2006-05-23 e73aefe cvsimport: cleanup commit function
+   33 LoC,   git-cvsimport.perl
+................................................................................
+    6 LoC, 2006-05-24 62bf0d9 cvsimport: set up commit environment in perl instead of using env
+    6 LoC,   git-cvsimport.perl
+................................................................................
+    5 LoC, 2006-05-25 ed90cbf cat-file: document -p option
+    5 LoC,   Documentation/git-cat-file.txt
+................................................................................
+   10 LoC, 2006-06-03 637cdd9 handle concurrent pruning of packed objects
+   10 LoC,   sha1_file.c
+................................................................................
+    3 LoC, 2006-06-03 86f7780 sha1_file: avoid re-preparing duplicate packs
+    3 LoC,   sha1_file.c
+................................................................................
+    3 LoC, 2006-06-23 cda8ab5 git-commit: allow -e option anywhere on command line
+    3 LoC,   contrib/examples/git-commit.sh
+................................................................................
+   11 LoC, 2006-07-23 4812a93 pack-objects: check pack.window for default window size
+    8 LoC,   builtin/pack-objects.c
+    3 LoC,   Documentation/config.txt
+................................................................................
+   13 LoC, 2006-07-23 ce43697 Colorize 'commit' lines in log ui
+   10 LoC,   diff.h
+    3 LoC,   diff.c
+................................................................................
+    3 LoC, 2006-08-03 c8d138a gitweb: optionally read config from GITWEB_CONFIG
+    3 LoC,   gitweb/gitweb.perl
+................................................................................
+   10 LoC, 2006-09-07 0424558 diff: support custom callbacks for output
+    7 LoC,   diff.h
+    3 LoC,   diff.c
+................................................................................
+  102 LoC, 2006-09-08 7c92fe0 Move color option parsing out of diff.c and into color.[ch]
+   94 LoC,   color.c
+    6 LoC,   color.h
+    2 LoC,   diff.c
+................................................................................
+  130 LoC, 2006-09-08 c91f0d9 git-commit.sh: convert run_status to a C builtin
+  103 LoC,   wt-status.c
+   21 LoC,   wt-status.h
+    4 LoC,   dir.c
+................................................................................
+    4 LoC, 2006-09-12 b982592 git-status: document colorization config options
+    4 LoC,   Documentation/config.txt
+................................................................................
+    1 LoC, 2006-09-25 d0b353b git-repack: allow git-repack to run in subdirectory
+    1 LoC,   contrib/examples/git-repack.sh
+................................................................................
+    4 LoC, 2006-11-02 20239ba git-pickaxe: work properly in a subdirectory.
+    4 LoC,   builtin/blame.c
+................................................................................
+    7 LoC, 2007-01-10 d93b7d1 get_tree_entry: map blank requested entry to tree root
+    7 LoC,   tree-walk.c
+................................................................................
+    3 LoC, 2007-01-16 a74b170 git-pull: disallow implicit merging to detached HEAD
+    3 LoC,   Documentation/git-symbolic-ref.txt
+................................................................................
+    3 LoC, 2007-03-10 c4431d3 Documentation: s/seperator/separator/
+    3 LoC,   Documentation/git-fast-import.txt
+................................................................................
+    2 LoC, 2007-03-11 f022f85 fast-import: grow tree storage more aggressively
+    2 LoC,   fast-import.c

@@ -1,0 +1,68 @@
+================================================================================
+Alex Henrie: 22 commits 11543 LoC
+................................................................................
+ 7001 LoC, 2014-08-23 0082d82 l10n: Add Catalan translation
+ 7001 LoC,   po/ca.po
+................................................................................
+    4 LoC, 2014-08-23 47abf17 po/TEAMS: Add Catalan team
+    4 LoC,   po/TEAMS
+................................................................................
+    8 LoC, 2014-08-31 ad5fe37 grammofix in user-facing messages
+    2 LoC,   builtin/merge.c
+    1 LoC,   builtin/commit.c
+    1 LoC,   builtin/ls-files.c
+................................................................................
+  763 LoC, 2014-11-18 b3e4c47 l10n: Update Catalan translation
+  763 LoC,   po/ca.po
+................................................................................
+   83 LoC, 2015-01-13 9c9b4f2 standardize usage info string format
+   12 LoC,   builtin/notes.c
+    5 LoC,   Documentation/CodingGuidelines
+    4 LoC,   builtin/branch.c
+................................................................................
+    1 LoC, 2015-01-22 8a1692f gitk: Remove tcl-format flag from a message that shouldn't have it
+    1 LoC,   gitk-git/gitk
+................................................................................
+  101 LoC, 2015-01-27 573ed5e l10n: ca.po: update translation
+  101 LoC,   po/ca.po
+................................................................................
+  240 LoC, 2015-03-29 d03ead9 l10n: ca.po: update translation
+  240 LoC,   po/ca.po
+................................................................................
+    1 LoC, 2015-04-03 0013251 gitk: Fix bad English grammar "Matches none Commit Info"
+    1 LoC,   gitk-git/gitk
+................................................................................
+    2 LoC, 2015-04-03 ce41720 blame, log: format usage strings similarly to those in documentation
+    1 LoC,   builtin/blame.c
+    1 LoC,   builtin/log.c
+................................................................................
+    2 LoC, 2015-04-08 c888305 l10n: ca.po: update translation
+    2 LoC,   po/ca.po
+................................................................................
+    4 LoC, 2015-05-12 ef87a48 gitk: Remove mc parameter from proc show_error
+    4 LoC,   gitk-git/gitk
+................................................................................
+  347 LoC, 2015-07-02 7363e66 l10n: ca.po: update translation
+  347 LoC,   po/ca.po
+................................................................................
+   59 LoC, 2015-07-21 cdab3ca l10n: ca.po: update translation
+   59 LoC,   po/ca.po
+................................................................................
+    1 LoC, 2015-08-27 99885bc reflog: add missing single quote to error message
+    1 LoC,   builtin/reflog.c
+................................................................................
+    2 LoC, 2015-08-27 b8c1d27 pack-objects: place angle brackets around placeholders in usage strings
+    2 LoC,   builtin/pack-objects.c
+................................................................................
+    1 LoC, 2015-08-27 9476c2c read-tree: replace bracket set with parentheses to clarify usage
+    1 LoC,   builtin/read-tree.c
+................................................................................
+ 1222 LoC, 2015-09-15 3ffa1ab l10n: ca.po: update translation
+ 1222 LoC,   po/ca.po
+................................................................................
+    2 LoC, 2015-10-02 b744767 merge: grammofix in please-commit-before-merge message
+    1 LoC,   advice.c
+    1 LoC,   contrib/examples/git-pull.sh
+................................................................................
+    1 LoC, 2015-10-16 e7a7401 pull: enclose <options> in brackets in the usage string
+    1 LoC,   builtin/pull.c

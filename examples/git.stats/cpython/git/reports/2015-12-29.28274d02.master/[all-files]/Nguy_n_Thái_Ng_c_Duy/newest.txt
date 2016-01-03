@@ -1,0 +1,73 @@
+================================================================================
+Nguyễn Thái Ngọc Duy: 709 commits 20908 LoC
+................................................................................
+    1 LoC, 2015-12-05 56a8aea git-check-ref-format.txt: typo, s/avoids/avoid/
+    1 LoC,   Documentation/git-check-ref-format.txt
+................................................................................
+    1 LoC, 2015-11-02 85d9d9d mailinfo: fix passing wrong address to git_mailinfo_config
+    1 LoC,   mailinfo.c
+................................................................................
+    6 LoC, 2015-09-28 d78db84 clone: better error when --reference is a linked checkout
+    6 LoC,   builtin/clone.c
+................................................................................
+    9 LoC, 2015-09-28 744e469 clone: allow --local from a linked checkout
+    5 LoC,   t/t2025-worktree-add.sh
+    4 LoC,   builtin/clone.c
+................................................................................
+    8 LoC, 2015-09-28 1f5fbe1 enter_repo: allow .git files in strict mode
+    6 LoC,   path.c
+    2 LoC,   t/t0002-gitfile.sh
+................................................................................
+    7 LoC, 2015-09-28 0f64cc4 enter_repo: avoid duplicating logic, use is_git_directory() instead
+    6 LoC,   t/t0002-gitfile.sh
+    1 LoC,   path.c
+................................................................................
+   34 LoC, 2015-09-28 3104120 t0002: add test for enter_repo(), non-strict mode
+   34 LoC,   t/t0002-gitfile.sh
+................................................................................
+    2 LoC, 2015-09-28 29bc480 ls-remote.txt: delete unsupported option
+    1 LoC,   Documentation/git-ls-remote.txt
+    1 LoC,   builtin/ls-remote.c
+................................................................................
+  104 LoC, 2015-09-21 57534ee dir.c: don't exclude whole dir prematurely if neg pattern may match
+   60 LoC,   dir.c
+   25 LoC,   t/t3001-ls-files-others-exclude.sh
+   19 LoC,   Documentation/gitignore.txt
+................................................................................
+    9 LoC, 2015-09-21 e6efecc dir.c: make last_exclude_matching_from_list() run til the end
+    9 LoC,   dir.c
+................................................................................
+   53 LoC, 2015-09-19 329e6e8 gc: save log from daemonized gc --auto and print it next time
+   53 LoC,   builtin/gc.c
+................................................................................
+    1 LoC, 2015-08-25 82fde87 setup: update the right file in multiple checkouts
+    1 LoC,   setup.c
+................................................................................
+   69 LoC, 2015-08-19 73f9145 untracked cache: fix entry invalidation
+   56 LoC,   dir.c
+   13 LoC,   t/t7063-status-untracked-cache.sh
+................................................................................
+    1 LoC, 2015-08-19 f178136 t7063: use --force-untracked-cache to speed up a bit
+    1 LoC,   t/t7063-status-untracked-cache.sh
+................................................................................
+   25 LoC, 2015-07-01 ae454f6 Add tests for wildcard "path vs ref" disambiguation
+   25 LoC,   t/t2019-checkout-ambiguous-ref.sh
+................................................................................
+  186 LoC, 2015-06-29 df0b6cf worktree: new place for "git prune --worktrees"
+  133 LoC,   builtin/worktree.c
+   37 LoC,   Documentation/git-worktree.txt
+   11 LoC,   t/t2026-worktree-prune.sh
+................................................................................
+   19 LoC, 2015-06-26 d95138e setup: set env $GIT_WORK_TREE when work tree is set, like $GIT_DIR
+   17 LoC,   t/t0002-gitfile.sh
+    2 LoC,   environment.c
+................................................................................
+   11 LoC, 2015-06-12 e1c1ab9 checkout: don't check worktrees when not necessary
+    8 LoC,   t/t2025-worktree-add.sh
+    3 LoC,   builtin/checkout.c
+................................................................................
+    1 LoC, 2015-06-07 ffcc9ba read-cache: fix untracked cache invalidation when split-index is used
+    1 LoC,   read-cache.c
+................................................................................
+    3 LoC, 2015-05-02 28fcc0b pathspec: avoid the need of "--" when wildcard is used
+    3 LoC,   setup.c

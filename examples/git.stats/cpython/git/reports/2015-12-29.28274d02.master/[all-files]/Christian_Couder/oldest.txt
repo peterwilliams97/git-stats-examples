@@ -1,0 +1,70 @@
+================================================================================
+Christian Couder: 268 commits 11237 LoC
+................................................................................
+    1 LoC, 2006-06-04 895f10c Builtin git-rev-parse.
+    1 LoC,   builtin/rev-parse.c
+................................................................................
+   18 LoC, 2006-08-31 7cf6720 Trace into open fd and refactor tracing code.
+   12 LoC,   write_or_die.c
+    5 LoC,   quote.c
+    1 LoC,   exec_cmd.c
+................................................................................
+   61 LoC, 2006-09-03 6ce4e61 Trace into a file or an open fd and refactor tracing code.
+   54 LoC,   trace.c
+    4 LoC,   t/test-lib.sh
+    2 LoC,   cache.h
+................................................................................
+    5 LoC, 2006-09-04 2886bdb Update GIT_TRACE documentation.
+    5 LoC,   Documentation/git.txt
+................................................................................
+    3 LoC, 2006-09-11 86257aa Move add_to_string to "quote.c" and make it extern.
+    2 LoC,   quote.c
+    1 LoC,   quote.h
+................................................................................
+    2 LoC, 2006-09-11 0f503d7 Fix a memory leak in "connect.c" and die if command too long.
+    2 LoC,   connect.c
+................................................................................
+    2 LoC, 2006-09-17 c40abef Add [-s|--hash] option to Linus' show-ref.
+    2 LoC,   builtin/show-ref.c
+................................................................................
+   12 LoC, 2006-09-20 9581e0f Document git-show-ref [-s|--hash] option.
+   12 LoC,   Documentation/git-show-ref.txt
+................................................................................
+    2 LoC, 2006-09-26 9c7b0b3 Remove empty ref directories that prevent creating a ref.
+    2 LoC,   t/t3200-branch.sh
+................................................................................
+   37 LoC, 2006-09-28 919a3c9 Add pack-refs and show-ref test cases.
+   37 LoC,   t/t3210-pack-refs.sh
+................................................................................
+    7 LoC, 2006-10-01 14c8a68 Clean up "git-branch.sh" and add remove recursive dir test cases.
+    7 LoC,   t/t3210-pack-refs.sh
+................................................................................
+    1 LoC, 2006-10-02 3673370 Do not create tag leading directories since git update-ref does it.
+    1 LoC,   contrib/examples/git-tag.sh
+................................................................................
+    2 LoC, 2006-10-15 6844fc8 Fix tracing when GIT_TRACE is set to an empty string.
+    2 LoC,   trace.c
+................................................................................
+    2 LoC, 2006-10-26 d9c04ba Remove --syslog in git-daemon inetd documentation examples.
+    2 LoC,   Documentation/giteveryday.txt
+................................................................................
+    3 LoC, 2006-10-27 e2b1d1c Documentation: add upload-archive service to git-daemon.
+    3 LoC,   Documentation/git-daemon.txt
+................................................................................
+   14 LoC, 2006-10-27 f8a5da6 Documentation: add git in /etc/services.
+    7 LoC,   Documentation/git-daemon.txt
+    7 LoC,   Documentation/giteveryday.txt
+................................................................................
+   88 LoC, 2007-03-23 a17c410 Bisect: implement "git bisect run <cmd>..." to automatically bisect.
+   51 LoC,   t/t6030-bisect-porcelain.sh
+   29 LoC,   git-bisect.sh
+    8 LoC,   Documentation/git-bisect.txt
+................................................................................
+    1 LoC, 2007-03-24 7891a28 Documentation: bisect: reformat some paragraphs.
+    1 LoC,   Documentation/git-bisect.txt
+................................................................................
+   18 LoC, 2007-03-24 1207f9e Documentation: bisect: add some titles to some paragraphs.
+   18 LoC,   Documentation/git-bisect.txt
+................................................................................
+    8 LoC, 2007-03-24 fed820a Documentation: bisect: reformat more paragraphs.
+    8 LoC,   Documentation/git-bisect.txt

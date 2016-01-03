@@ -1,0 +1,68 @@
+================================================================================
+Thomas Rast: 281 commits 12539 LoC
+................................................................................
+   20 LoC, 2008-06-26 f6bebd1 git-send-email: add support for TLS via Net::SMTP::SSL
+   20 LoC,   git-send-email.perl
+................................................................................
+    3 LoC, 2008-06-27 fa835cd git-send-email: prevent undefined variable warnings if no encryption is set
+    3 LoC,   git-send-email.perl
+................................................................................
+    2 LoC, 2008-07-03 8cbd431 git-add--interactive: replace hunk recounting with apply --recount
+    2 LoC,   git-add--interactive.perl
+................................................................................
+  160 LoC, 2008-07-03 ac083c4 git-add--interactive: manual hunk editing mode
+  104 LoC,   git-add--interactive.perl
+   55 LoC,   t/t3701-add-interactive.sh
+    1 LoC,   Documentation/git-add.txt
+................................................................................
+    1 LoC, 2008-07-03 6cbf8b0 git-send-email: Do not attempt to STARTTLS more than once
+    1 LoC,   git-send-email.perl
+................................................................................
+    5 LoC, 2008-07-05 6cf9149 Fix apply --recount handling of no-EOL line
+    2 LoC,   t/t4100-apply-stat.sh
+    1 LoC,   builtin/apply.c
+    1 LoC,   t/t4100/t-apply-8.expect
+................................................................................
+    7 LoC, 2008-07-24 2ca880f git-completion.bash: provide completion for 'show-branch'
+    7 LoC,   contrib/completion/git-completion.bash
+................................................................................
+    8 LoC, 2008-07-26 cbb504c bash completion: Add long options for 'git describe'
+    8 LoC,   contrib/completion/git-completion.bash
+................................................................................
+   12 LoC, 2008-08-08 8afa421 Documentation: filter-branch: document how to filter all refs
+   12 LoC,   Documentation/git-filter-branch.txt
+................................................................................
+   10 LoC, 2008-08-08 261044e filter-branch: be more helpful when an annotated tag changes
+   10 LoC,   git-filter-branch.sh
+................................................................................
+    4 LoC, 2008-08-08 b3bc97c Documentation: commit-tree: remove 16 parents restriction
+    4 LoC,   Documentation/git-commit-tree.txt
+................................................................................
+    1 LoC, 2008-08-10 18a2197 Documentation: rev-list-options: Fix -g paragraph formatting
+    1 LoC,   Documentation/rev-list-options.txt
+................................................................................
+    1 LoC, 2008-08-12 d777af8 Documentation: rev-list-options: Fix a typo
+    1 LoC,   Documentation/rev-list-options.txt
+................................................................................
+   99 LoC, 2008-08-12 70d9895 Documentation: rev-list-options: Rewrite simplification descriptions for clarity
+   99 LoC,   Documentation/rev-list-options.txt
+................................................................................
+   34 LoC, 2008-08-12 d266a98 Documentation: rev-list-options: move --simplify-merges documentation
+   34 LoC,   Documentation/rev-list-options.txt
+................................................................................
+    5 LoC, 2008-08-12 6e84b71 filter-branch: Extend test to show rewriting bug
+    5 LoC,   t/t7003-filter-branch.sh
+................................................................................
+    3 LoC, 2008-08-12 a0e4639 filter-branch: fix ref rewriting with --subdirectory-filter
+    3 LoC,   git-filter-branch.sh
+................................................................................
+   20 LoC, 2008-08-14 71d9451 rebase -i -p: handle index and workdir correctly
+   11 LoC,   git-rebase--interactive.sh
+    9 LoC,   t/t3404-rebase-interactive.sh
+................................................................................
+    9 LoC, 2008-08-14 a96dc01 rebase -i -p: fix parent rewriting
+    8 LoC,   t/t3404-rebase-interactive.sh
+    1 LoC,   git-rebase--interactive.sh
+................................................................................
+    5 LoC, 2008-08-27 edde911 git svn info: make info relative to the current directory
+    5 LoC,   t/t9119-git-svn-info.sh

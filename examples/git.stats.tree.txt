@@ -1,0 +1,40 @@
+[root]                                  Defaults to ~/git.stats
+├── cpython                             Directory for https://github.com/python/cpython.git
+│   └── reports
+│       ├── 2011-03-06.d68ed6fc.2_0     Revision `d68ed6fc` which was created on 2011-03-06 on
+│       │   │                           on branch `2.0`.
+│       │   └── [all-files]             Report on all files in this revision
+│       │       ├── [all-authors]       Sub-report on all authors
+│       │       │   ├── code-age.png    Graph of code age. LoC / day vs date
+│       │       │   ├── code-age.txt    List of commits in the peaks in the code-age.png graph
+│       │       │   ├── details.csv     LoC in each directory in for these files and authors
+│       │       │   ├── newest.txt      List of newest commits for these files and authors
+│       │       │   └── oldest.txt      List of oldest commits for these files and authors
+│       │       ├── Guido_van_Rossum    Sub-report on author `Guido van Rossum`
+│       │       │   ├── code-age.png
+│       │       │   ├── code-age.txt
+│       │       │   ├── details.csv
+│       │       │   ├── newest.txt
+│       │       │   └── oldest.txt
+│       │       ├── Thomas_Wouters      Sub-report on author `Thomas_Wouters`
+│       │       │   ├── code-age.png
+│       │       │   ├── code-age.txt
+│       │       │   ├── details.csv
+│       │       │   ├── newest.txt
+│       │       │   └── oldest.txt
+        ....                            Sub-reports on more authors
+│       │       ├── details.csv         LoC in each directory in for this revision
+│       │       ├── ext_author_files.csv Table of #files by author & file extension for revision
+│       │       └── ext_author_loc.csv  Table of LoC by author & file extension for revision
+│       │ 
+│       └── 2015-12-18.241d0c54.master  Revision `241d0c54` which was created on 2015-12-18 on
+│           │                           on branch `master `.
+│           ├── [all-files]             Report on all files in this revision
+│               ....                    Same directory structure as above
+│           │
+│           ├── __c.__cpp.__h           Report on *.c, *.cpp and *.h files in this revision
+│               ....                    Same directory structure as above
+│           │  
+│           └── __py                    Report on *py files in this revision
+│               ....                    Same directory structure as above
+

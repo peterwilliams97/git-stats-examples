@@ -1,0 +1,67 @@
+================================================================================
+Jonathan Nieder: 587 commits 15266 LoC
+................................................................................
+    2 LoC, 2015-05-05 95d6212 config: use error() instead of fprintf(stderr, ...)
+    2 LoC,   builtin/config.c
+................................................................................
+   74 LoC, 2014-12-04 1f23cfe doc: document error handling functions and conventions
+   74 LoC,   Documentation/technical/api-error-handling.txt
+................................................................................
+    6 LoC, 2014-12-03 89ea903 rerere: error out on autoupdate failure
+    6 LoC,   rerere.c
+................................................................................
+    3 LoC, 2014-11-19 ca2051d Makefile: have python scripts depend on NO_PYTHON setting
+    3 LoC,   Makefile
+................................................................................
+    5 LoC, 2014-11-19 64c07db Makefile: simplify by using SCRIPT_{PERL,SH}_GEN macros
+    5 LoC,   Makefile
+................................................................................
+   18 LoC, 2014-10-08 8852117 pass config slots as pointers instead of offsets
+    8 LoC,   builtin/commit.c
+    7 LoC,   builtin/branch.c
+    2 LoC,   log-tree.c
+................................................................................
+    1 LoC, 2014-09-27 f3cc52d packed-ref cache: forbid dot-components in refnames
+    1 LoC,   refs.c
+................................................................................
+   33 LoC, 2014-09-11 62a2d52 branch -d: avoid repeated symref resolution
+   26 LoC,   t/t1400-update-ref.sh
+    6 LoC,   t/t3200-branch.sh
+    1 LoC,   builtin/branch.c
+................................................................................
+   10 LoC, 2014-09-11 2b2b1e4 mv test: recreate mod/ directory instead of relying on stale copy
+   10 LoC,   t/t7001-mv.sh
+................................................................................
+   15 LoC, 2014-09-03 88499b2 update-ref --stdin: pass transaction around explicitly
+   15 LoC,   builtin/update-ref.c
+................................................................................
+   10 LoC, 2014-09-03 ab5ac95 update-ref --stdin: narrow scope of err strbuf
+   10 LoC,   builtin/update-ref.c
+................................................................................
+    5 LoC, 2014-08-29 5a603b0 refs.c: do not permit err == NULL
+    5 LoC,   refs.c
+................................................................................
+    1 LoC, 2014-08-22 1f31963 i18n: treat "make pot" as an explicitly-invoked target
+    1 LoC,   Makefile
+................................................................................
+   23 LoC, 2014-08-13 6a143aa checkout -m: attempt merge when deletion of path was staged
+   17 LoC,   t/t7201-co.sh
+    6 LoC,   unpack-trees.c
+................................................................................
+    4 LoC, 2014-08-13 6c1db1b unpack-trees: use 'cuddled' style for if-else cascade
+    4 LoC,   unpack-trees.c
+................................................................................
+    4 LoC, 2014-05-24 561b46c test-lint: find unportable sed, echo, test, and export usage after &&
+    4 LoC,   t/check-non-portable-shell.pl
+................................................................................
+    1 LoC, 2014-05-08 e28dcdc shell doc: remove stray "+" in example
+    1 LoC,   Documentation/git-shell.txt
+................................................................................
+    3 LoC, 2014-05-06 bb98b01 test doc: test_write_lines does not split its arguments
+    3 LoC,   t/README
+................................................................................
+    5 LoC, 2014-02-25 0e3d40c am doc: add a pointer to relevant hooks
+    5 LoC,   Documentation/git-am.txt
+................................................................................
+    1 LoC, 2014-01-31 52c02f6 pager test: make fake pager consume all its input
+    1 LoC,   t/t7006-pager.sh

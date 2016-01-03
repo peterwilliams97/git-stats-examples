@@ -1,0 +1,75 @@
+================================================================================
+Jeff King: 1576 commits 31776 LoC
+................................................................................
+   16 LoC, 2015-12-20 f91b273 t1401: test reflog creation for git-symbolic-ref
+   16 LoC,   t/t1401-symbolic-ref.sh
+................................................................................
+    7 LoC, 2015-12-20 3e4068e symbolic-ref: propagate error code from create_symref()
+    6 LoC,   t/t1401-symbolic-ref.sh
+    1 LoC,   builtin/symbolic-ref.c
+................................................................................
+   30 LoC, 2015-12-17 728350b revision.c: propagate tag names from pending array
+   29 LoC,   t/t4202-log.sh
+    1 LoC,   revision.c
+................................................................................
+    1 LoC, 2015-12-15 58d29ec ident: fix undefined variable when NO_IPV6 is set
+    1 LoC,   ident.c
+................................................................................
+   22 LoC, 2015-12-11 92bcbb9 ident: loosen getpwuid error in non-strict mode
+   22 LoC,   ident.c
+................................................................................
+    9 LoC, 2015-12-11 19ce497 ident: keep a flag for bogus default_email
+    9 LoC,   ident.c
+................................................................................
+    8 LoC, 2015-12-11 e850194 ident: make xgetpwuid_self() a static local helper
+    8 LoC,   ident.c
+................................................................................
+   21 LoC, 2015-11-18 7cb5f7c blame: fix object casting regression
+   14 LoC,   builtin/blame.c
+    7 LoC,   t/annotate-tests.sh
+................................................................................
+   39 LoC, 2015-11-06 348d4f2 filter-branch: skip index read/write when possible
+   20 LoC,   git-filter-branch.sh
+   19 LoC,   t/perf/p7000-filter-branch.sh
+................................................................................
+    4 LoC, 2015-11-03 f8117f5 http: use off_t to store partial file size
+    4 LoC,   http.c
+................................................................................
+   38 LoC, 2015-10-29 e34f802 merge-file: clamp exit code to maximum 127
+   33 LoC,   t/t7600-merge.sh
+    3 LoC,   builtin/merge-file.c
+    2 LoC,   Documentation/git-merge-file.txt
+................................................................................
+    1 LoC, 2015-10-29 9a6e4f0 add_submodule_odb: initialize alt_odb list earlier
+    1 LoC,   submodule.c
+................................................................................
+   37 LoC, 2015-10-27 72fac66 merge: detect delete/modechange conflict
+   23 LoC,   t/t6031-merge-filemode.sh
+    8 LoC,   git-merge-one-file.sh
+    6 LoC,   merge-recursive.c
+................................................................................
+   77 LoC, 2015-10-27 f78d1fe t6031: generalize for recursive and resolve strategies
+   77 LoC,   t/t6031-merge-filemode.sh
+................................................................................
+   30 LoC, 2015-10-27 6f50833 t6031: move triple-rename test to t3030
+   30 LoC,   t/t3030-merge-recursive.sh
+................................................................................
+   76 LoC, 2015-10-05 9c28390 init: use strbufs to store paths
+   74 LoC,   builtin/init-db.c
+    2 LoC,   t/t0001-init.sh
+................................................................................
+   13 LoC, 2015-10-05 fdf7296 probe_utf8_pathname_composition: use internal strbuf
+   10 LoC,   compat/precompose_utf8.c
+    1 LoC,   builtin/init-db.c
+    1 LoC,   compat/precompose_utf8.h
+................................................................................
+    1 LoC, 2015-10-05 e2b021e precompose_utf8: drop unused variable
+    1 LoC,   compat/precompose_utf8.c
+................................................................................
+    2 LoC, 2015-09-26 83c4d38 merge-file: enforce MAX_XDIFF_SIZE on incoming files
+    2 LoC,   builtin/merge-file.c
+................................................................................
+   14 LoC, 2015-09-25 dcd1742 xdiff: reject files larger than ~1GB
+    7 LoC,   xdiff-interface.h
+    4 LoC,   ll-merge.c
+    3 LoC,   xdiff-interface.c

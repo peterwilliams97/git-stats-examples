@@ -1,0 +1,70 @@
+================================================================================
+Ævar Arnfjörð Bjarmason: 219 commits 14688 LoC
+................................................................................
+    1 LoC, 2013-08-30 fd87004 gitweb: Fix the author initials in blame for non-ASCII names
+    1 LoC,   gitweb/gitweb.perl
+................................................................................
+    5 LoC, 2012-05-01 4064e66 git-commit: remove lego in i18n messages
+    5 LoC,   builtin/commit.c
+................................................................................
+   21 LoC, 2012-05-01 b0cea47 git-commit: remove lego in i18n messages
+   21 LoC,   builtin/commit.c
+................................................................................
+   12 LoC, 2012-05-01 c179837 git-branch: remove lego in i18n messages
+   12 LoC,   builtin/branch.c
+................................................................................
+    1 LoC, 2012-03-10 5eb660e perl/Makefile: install Git::I18N under NO_PERL_MAKEMAKER
+    1 LoC,   perl/Makefile
+................................................................................
+   10 LoC, 2012-03-10 3e9c6a0 Git::I18N: compatibility with perl <5.8.3
+   10 LoC,   perl/Git/I18N.pm
+................................................................................
+    9 LoC, 2012-02-12 1f5ad6b t: use sane_unset instead of unset
+    3 LoC,   t/t5560-http-backend-noserver.sh
+    2 LoC,   t/t9808-git-p4-chdir.sh
+    1 LoC,   t/t4150-am.sh
+................................................................................
+    1 LoC, 2012-02-12 83cf21f git-svn: un-break "git svn rebase" when log.abbrevCommit=true
+    1 LoC,   git-svn.perl
+................................................................................
+    8 LoC, 2011-12-21 ab1900a Appease Sun Studio by renaming "tmpfile"
+    3 LoC,   builtin/index-pack.c
+    3 LoC,   pack-write.c
+    2 LoC,   fast-import.c
+................................................................................
+    2 LoC, 2011-12-21 d7a10c3 Fix an enum assignment issue spotted by Sun Studio
+    2 LoC,   builtin/fast-export.c
+................................................................................
+    1 LoC, 2011-12-21 6d62c98 Makefile: Change the default compiler from "gcc" to "cc"
+    1 LoC,   Makefile
+................................................................................
+    1 LoC, 2011-12-21 97f261b builtin/init-db.c: eliminate -Wformat warning on Solaris
+    1 LoC,   builtin/init-db.c
+................................................................................
+    2 LoC, 2011-12-21 5cd7fad t/t2023-checkout-m.sh: fix use of test_must_fail
+    2 LoC,   t/t2023-checkout-m.sh
+................................................................................
+ 1175 LoC, 2011-11-18 5e9637c i18n: add infrastructure for translating Git with gettext
+  203 LoC,   po/README
+  112 LoC,   gettext.c
+  110 LoC,   t/t0202/test.pl
+................................................................................
+   21 LoC, 2011-11-06 6b37dff pull: introduce a pull.rebase option to enable --rebase
+    9 LoC,   Documentation/config.txt
+    9 LoC,   t/t5520-pull.sh
+    3 LoC,   contrib/examples/git-pull.sh
+................................................................................
+    2 LoC, 2011-11-06 ca0f515 t/t7508-status.sh: use test_i18ncmp
+    2 LoC,   t/t7508-status.sh
+................................................................................
+    8 LoC, 2011-05-29 f5008f5 git-sh-i18n--envsubst: add SYNOPSIS section to the documentation
+    8 LoC,   Documentation/git-sh-i18n--envsubst.txt
+................................................................................
+    4 LoC, 2011-05-22 be508d3 i18n: git-bisect bisect_next_check "You need to" message
+    4 LoC,   git-bisect.sh
+................................................................................
+    8 LoC, 2011-05-22 04de099 i18n: git-bisect [Y/n] messages
+    8 LoC,   git-bisect.sh
+................................................................................
+    4 LoC, 2011-05-22 55a9fc8 i18n: git-bisect bisect_replay + $1 messages
+    4 LoC,   git-bisect.sh

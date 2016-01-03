@@ -1,0 +1,73 @@
+================================================================================
+Shawn O. Pearce: 850 commits 24636 LoC
+................................................................................
+   37 LoC, 2006-02-17 772d8a3 Make git-reset delete empty directories
+   37 LoC,   t/t7101-reset-empty-subdirs.sh
+................................................................................
+    4 LoC, 2006-03-01 e3601e8 Darwin: Ignore missing /sw/lib
+    4 LoC,   Makefile
+................................................................................
+   23 LoC, 2006-03-01 9debe63 Teach git-checkout-index to read filenames from stdin.
+   14 LoC,   Documentation/git-checkout-index.txt
+    9 LoC,   builtin/checkout-index.c
+................................................................................
+  186 LoC, 2006-03-05 de84f99 Add --temp and --stage=all options to checkout-index.
+   78 LoC,   t/t2004-checkout-cache-temp.sh
+   56 LoC,   builtin/checkout-index.c
+   48 LoC,   Documentation/git-checkout-index.txt
+................................................................................
+   10 LoC, 2006-04-19 23edecb Document git-clone --reference
+   10 LoC,   Documentation/git-clone.txt
+................................................................................
+    6 LoC, 2006-05-17 4bd18c4 Improve abstraction of ref lock/write.
+    4 LoC,   refs.c
+    2 LoC,   walker.c
+................................................................................
+    2 LoC, 2006-05-17 5b16b09 Convert update-ref to use ref_lock API.
+    2 LoC,   builtin/update-ref.c
+................................................................................
+  102 LoC, 2006-05-17 6de08ae Log ref updates to logs/refs/<ref>
+   71 LoC,   t/t1400-update-ref.sh
+   23 LoC,   Documentation/git-update-ref.txt
+    5 LoC,   config.c
+................................................................................
+   18 LoC, 2006-05-17 d556fae Support 'master@2 hours ago' syntax
+   10 LoC,   sha1_name.c
+    6 LoC,   refs.c
+    2 LoC,   refs.h
+................................................................................
+    1 LoC, 2006-05-18 70e34b2 Fix ref log parsing so it works properly.
+    1 LoC,   sha1_name.c
+................................................................................
+   21 LoC, 2006-05-19 e522904 General ref log reading improvements.
+   21 LoC,   t/t1400-update-ref.sh
+................................................................................
+    8 LoC, 2006-05-19 c22a7f0 Added logs/ directory to repository layout.
+    8 LoC,   Documentation/gitrepository-layout.txt
+................................................................................
+    3 LoC, 2006-05-19 d0740d9 Log ref updates made by fetch.
+    3 LoC,   walker.c
+................................................................................
+   27 LoC, 2006-05-19 cce91a2 Change 'master@noon' syntax to 'master@{noon}'.
+   18 LoC,   t/t1400-update-ref.sh
+    9 LoC,   sha1_name.c
+................................................................................
+    1 LoC, 2006-05-19 67644a4 Include ref log detail in commit, reset, etc.
+    1 LoC,   contrib/examples/git-commit.sh
+................................................................................
+    4 LoC, 2006-05-19 3a4b3f2 Create/delete branch ref logs.
+    4 LoC,   Documentation/git-branch.txt
+................................................................................
+    7 LoC, 2006-05-19 969d326 Enable ref log creation in git checkout -b.
+    5 LoC,   contrib/examples/git-checkout.sh
+    2 LoC,   Documentation/git-checkout.txt
+................................................................................
+    3 LoC, 2006-05-21 2b1f424 Reference git-check-ref-format in git-branch.
+    2 LoC,   Documentation/git-branch.txt
+    1 LoC,   Documentation/git-checkout.txt
+................................................................................
+    1 LoC, 2006-05-21 87a56cd Elaborate on why ':' is a bad idea in a ref name.
+    1 LoC,   Documentation/git-check-ref-format.txt
+................................................................................
+   12 LoC, 2006-05-25 9c7466f Verify git-commit provides a reflog message.
+   12 LoC,   t/t1400-update-ref.sh

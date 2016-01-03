@@ -1,0 +1,79 @@
+================================================================================
+Linus Torvalds: 620 commits 13907 LoC
+................................................................................
+    2 LoC, 2014-05-30 1571586 git log: support "auto" decorations
+    2 LoC,   builtin/log.c
+................................................................................
+   27 LoC, 2014-01-23 dc2eacc request-pull: allow "local:remote" to specify names on both ends
+   27 LoC,   git-request-pull.sh
+................................................................................
+   25 LoC, 2014-01-23 024d34c request-pull: more strictly match local/remote branches
+   25 LoC,   git-request-pull.sh
+................................................................................
+   37 LoC, 2012-10-18 74faaa1 Fix "git diff --stat" for interesting - but empty - file changes
+   23 LoC,   t/t4006-diff-mode.sh
+   10 LoC,   diff.c
+    2 LoC,   t/t4049-diff-stat-count.sh
+................................................................................
+   80 LoC, 2012-06-29 08a94a1 commit/commit-tree: correct latin1 to utf-8
+   80 LoC,   commit.c
+................................................................................
+    4 LoC, 2012-05-26 a3347b9 fmt-merge-message: add empty line between tag and signature verification
+    4 LoC,   builtin/fmt-merge-msg.c
+................................................................................
+    4 LoC, 2012-02-12 8580830 "git pull" doesn't know "--edit"
+    4 LoC,   contrib/examples/git-pull.sh
+................................................................................
+  174 LoC, 2011-11-03 7a2b128 fetch: do not store peeled tag object names in FETCH_HEAD
+    3 LoC,   t/t5515/fetch.br-branches-default
+    3 LoC,   t/t5515/fetch.br-branches-default-merge
+    3 LoC,   t/t5515/fetch.br-branches-default-merge_branches-default
+................................................................................
+    1 LoC, 2011-02-19 3a4d676 diffcore-rename: improve estimate_similarity() heuristics
+    1 LoC,   diffcore-rename.c
+................................................................................
+   19 LoC, 2011-02-19 0940e5f diffcore-rename: properly honor the difference between -M and -C
+   15 LoC,   diffcore-rename.c
+    1 LoC,   t/t4003-diff-rename-1.sh
+    1 LoC,   t/t4004-diff-rename-symlink.sh
+................................................................................
+    3 LoC, 2011-02-19 11f944d for_each_hash: allow passing a 'void *data' pointer to callback
+    3 LoC,   diffcore-rename.c
+................................................................................
+   21 LoC, 2010-10-29 dce9648 Make the default abbrev length configurable
+    7 LoC,   config.c
+    5 LoC,   Documentation/config.txt
+    5 LoC,   builtin/describe.c
+................................................................................
+    8 LoC, 2010-09-28 442cb08 Fix missing 'does' in man-page for 'git checkout'
+    8 LoC,   Documentation/git-checkout.txt
+................................................................................
+    4 LoC, 2010-08-25 1fda91b Fix 'git log' early pager startup error case
+    3 LoC,   git.c
+    1 LoC,   builtin/log.c
+................................................................................
+    6 LoC, 2010-04-24 5789510 Make :/ accept a regex rather than a fixed pattern
+    6 LoC,   sha1_name.c
+................................................................................
+   91 LoC, 2010-02-23 81b50f3 Move 'builtin-*' into a 'builtin/' subdirectory
+   91 LoC,   Makefile
+................................................................................
+    8 LoC, 2010-01-23 3bb7256 make "index-pack" a built-in
+    6 LoC,   builtin/index-pack.c
+    1 LoC,   builtin.h
+    1 LoC,   pack-write.c
+................................................................................
+    4 LoC, 2010-01-23 377d027 make "git pack-redundant" a built-in
+    2 LoC,   builtin/pack-redundant.c
+    1 LoC,   builtin.h
+    1 LoC,   git.c
+................................................................................
+    3 LoC, 2010-01-23 b532581 make "git unpack-file" a built-in
+    1 LoC,   builtin.h
+    1 LoC,   builtin/unpack-file.c
+    1 LoC,   git.c
+................................................................................
+    3 LoC, 2010-01-23 112dd51 make "mktag" a built-in
+    1 LoC,   builtin.h
+    1 LoC,   builtin/mktag.c
+    1 LoC,   git.c

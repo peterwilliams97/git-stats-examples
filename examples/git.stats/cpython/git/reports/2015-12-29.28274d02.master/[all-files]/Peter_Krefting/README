@@ -1,0 +1,20 @@
+Code Age Report for files [all-files] and authors Peter Krefting.
+=================================================================
+
+Totals: 16 files, 56 commits, 16243 LoC
+
+Revision Details
+----------------
+Repository:  git (https://github.com/git/git.git)
+Date:        2015-12-29
+Description: master
+SHA-1 hash   28274d02c489f4c7e68153056e9061a46f62d7a0
+
+
+Files in this Directory
+-----------------------
+code-age.png: Graph of code age
+code-age.txt: Commits around peaks in code-age.png
+details.csv : Distribution of LoC over the directory structure
+newest.txt  : Newest commits
+oldest.txt  : Oldest surviving commits

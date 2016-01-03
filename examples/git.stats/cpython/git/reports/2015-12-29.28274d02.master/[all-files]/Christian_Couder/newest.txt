@@ -1,0 +1,69 @@
+================================================================================
+Christian Couder: 268 commits 11237 LoC
+................................................................................
+    1 LoC, 2015-11-25 bc49712 Documentation/git-update-index: add missing opts to synopsis
+    1 LoC,   Documentation/git-update-index.txt
+................................................................................
+    1 LoC, 2015-11-24 5cb2e16 Documentation/git-update-index: add missing opts to synopsys
+    1 LoC,   Documentation/git-update-index.txt
+................................................................................
+    1 LoC, 2015-10-08 ca9da0d quote: fix broken sq_quote_buf() related comment
+    1 LoC,   quote.c
+................................................................................
+   16 LoC, 2015-08-31 5c99995 trailer: support multiline title
+   11 LoC,   trailer.c
+    5 LoC,   t/t7513-interpret-trailers.sh
+................................................................................
+    1 LoC, 2015-08-26 6262fe9 trailer: retitle a test and correct an in-comment message
+    1 LoC,   t/t7513-interpret-trailers.sh
+................................................................................
+   16 LoC, 2015-08-21 dc5d553 trailer: ignore first line of message
+   16 LoC,   t/t7513-interpret-trailers.sh
+................................................................................
+    9 LoC, 2014-12-26 07913d5 bisect: add test to check that revs are properly parsed
+    9 LoC,   t/t6030-bisect-porcelain.sh
+................................................................................
+    7 LoC, 2014-12-26 6bc02d5 bisect: parse revs before passing them to check_expected_revs()
+    7 LoC,   git-bisect.sh
+................................................................................
+    9 LoC, 2014-11-09 3d24a72 trailer: add test with an old style conflict block
+    9 LoC,   t/t7513-interpret-trailers.sh
+................................................................................
+   29 LoC, 2014-11-09 61cfef4 trailer: reuse ignore_non_trailer() to ignore conflict lines
+   25 LoC,   trailer.c
+    4 LoC,   t/t7513-interpret-trailers.sh
+................................................................................
+   48 LoC, 2014-11-09 8c38458 commit: make ignore_non_trailer() non static
+   45 LoC,   commit.c
+    3 LoC,   commit.h
+................................................................................
+    6 LoC, 2014-11-09 d52adf1 trailer: display a trailer without its trailing newline
+    6 LoC,   trailer.c
+................................................................................
+    2 LoC, 2014-11-09 2887103 trailer: ignore comment lines inside the trailers
+    2 LoC,   trailer.c
+................................................................................
+  311 LoC, 2014-10-14 dfd66dd Documentation: add documentation for 'git interpret-trailers'
+  310 LoC,   Documentation/git-interpret-trailers.txt
+    1 LoC,   command-list.txt
+................................................................................
+   92 LoC, 2014-10-14 b9384ff trailer: add tests for commands in config file
+   92 LoC,   t/t7513-interpret-trailers.sh
+................................................................................
+   68 LoC, 2014-10-14 85039fb trailer: execute command from 'trailer.<name>.command'
+   68 LoC,   trailer.c
+................................................................................
+  795 LoC, 2014-10-14 76bed78 trailer: add tests for "git interpret-trailers"
+  795 LoC,   t/t7513-interpret-trailers.sh
+................................................................................
+   46 LoC, 2014-10-14 6634f05 trailer: add interpret-trailers command
+   44 LoC,   builtin/interpret-trailers.c
+    1 LoC,   Makefile
+    1 LoC,   builtin.h
+................................................................................
+   72 LoC, 2014-10-14 b1d78d7 trailer: put all the processing together and print
+   66 LoC,   trailer.c
+    6 LoC,   trailer.h
+................................................................................
+  117 LoC, 2014-10-14 2013d85 trailer: parse trailers from file or stdin
+  117 LoC,   trailer.c

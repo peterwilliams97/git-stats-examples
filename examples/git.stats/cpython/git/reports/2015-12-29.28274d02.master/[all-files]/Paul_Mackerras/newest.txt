@@ -1,0 +1,66 @@
+================================================================================
+Paul Mackerras: 272 commits 14063 LoC
+................................................................................
+ 2665 LoC, 2015-05-17 9c11578 gitk: Update .po files
+  296 LoC,   gitk-git/po/hu.po
+  295 LoC,   gitk-git/po/de.po
+  294 LoC,   gitk-git/po/es.po
+................................................................................
+    8 LoC, 2015-05-03 eb859df gitk: Fix error when changing colors after closing "List references" window
+    8 LoC,   gitk-git/gitk
+................................................................................
+   56 LoC, 2015-05-02 009409f gitk: Replace catch {unset foo} with unset -nocomplain foo
+   56 LoC,   gitk-git/gitk
+................................................................................
+ 1612 LoC, 2015-03-15 c846920 gitk: Update .po files
+  445 LoC,   gitk-git/po/es.po
+  203 LoC,   gitk-git/po/ru.po
+  161 LoC,   gitk-git/po/fr.po
+................................................................................
+    1 LoC, 2014-01-23 76d64ca gitk: Indent word-wrapped lines in commit display header
+    1 LoC,   gitk-git/gitk
+................................................................................
+    2 LoC, 2014-01-21 6c626a0 gitk: Update copyright dates
+    2 LoC,   gitk-git/gitk
+................................................................................
+    6 LoC, 2013-05-11 39c1269 gitk: Improve behaviour of drop-down lists
+    6 LoC,   gitk-git/gitk
+................................................................................
+   67 LoC, 2013-01-03 4399fe3 gitk: Tag display improvements
+   67 LoC,   gitk-git/gitk
+................................................................................
+   32 LoC, 2013-01-02 386befb gitk: Display important heads even when there are many
+   32 LoC,   gitk-git/gitk
+................................................................................
+    6 LoC, 2013-01-01 d34835c gitk: Improve display of list of nearby tags and heads
+    6 LoC,   gitk-git/gitk
+................................................................................
+    2 LoC, 2013-01-01 d809fb1 gitk: Fix display of branch names on some commits
+    2 LoC,   gitk-git/gitk
+................................................................................
+   28 LoC, 2012-03-23 6febded gitk: Add menu items for comparing a commit with the marked commit
+   28 LoC,   gitk-git/gitk
+................................................................................
+   25 LoC, 2012-03-19 22387f2 gitk: Speed up resolution of short SHA1 ids
+   25 LoC,   gitk-git/gitk
+................................................................................
+    4 LoC, 2011-03-09 21ac8a8 gitk: Allow user to control how much of the SHA1 ID gets auto-selected
+    4 LoC,   gitk-git/gitk
+................................................................................
+   12 LoC, 2009-11-14 51a7e8b gitk: Improve appearance of radiobuttons and checkbuttons
+   12 LoC,   gitk-git/gitk
+................................................................................
+   20 LoC, 2009-09-10 aa43561 gitk: Don't compare fake children when comparing commits
+   20 LoC,   gitk-git/gitk
+................................................................................
+   53 LoC, 2009-09-07 c21398b gitk: Show diff of commits at end of compare-commits output
+   53 LoC,   gitk-git/gitk
+................................................................................
+    8 LoC, 2009-09-05 0cc08ff gitk: Add a user preference to enable/disable use of themed widgets
+    8 LoC,   gitk-git/gitk
+................................................................................
+    5 LoC, 2009-09-05 eae7d64 Merge branch 'master' into dev
+    5 LoC,   gitk-git/gitk
+................................................................................
+    4 LoC, 2009-05-16 a813873 gitk: Check git version before using --textconv flag
+    4 LoC,   gitk-git/gitk

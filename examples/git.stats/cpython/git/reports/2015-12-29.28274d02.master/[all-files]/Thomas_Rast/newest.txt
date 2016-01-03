@@ -1,0 +1,66 @@
+================================================================================
+Thomas Rast: 281 commits 12539 LoC
+................................................................................
+   32 LoC, 2014-02-17 aba4727 diff: do not reuse_worktree_file for submodules
+   29 LoC,   t/t4020-diff-external.sh
+    3 LoC,   diff.c
+................................................................................
+    3 LoC, 2014-01-19 75d6e55 Documentation: @{-N} can refer to a commit
+    2 LoC,   Documentation/git-checkout.txt
+    1 LoC,   Documentation/revisions.txt
+................................................................................
+    5 LoC, 2013-12-02 5508f3e send-email: set SSL options through IO::Socket::SSL::set_client_defaults
+    5 LoC,   git-send-email.perl
+................................................................................
+    1 LoC, 2013-12-02 979e652 send-email: --smtp-ssl-cert-path takes an argument
+    1 LoC,   git-send-email.perl
+................................................................................
+   17 LoC, 2013-11-26 e9e03a7 commit-slab: declare functions "static inline"
+   17 LoC,   commit-slab.h
+................................................................................
+   10 LoC, 2013-11-26 dcbbc8f commit-slab: document clear_$slabname()
+   10 LoC,   commit-slab.h
+................................................................................
+  110 LoC, 2013-11-23 7c801fb Documentation: revamp git-cherry(1)
+  110 LoC,   Documentation/git-cherry.txt
+................................................................................
+   14 LoC, 2013-11-17 0c1cddd Documentation/gitk: document -L option
+   14 LoC,   Documentation/gitk.txt
+................................................................................
+    8 LoC, 2013-11-17 ce2c58c gitk: Recognize -L option
+    8 LoC,   gitk-git/gitk
+................................................................................
+   35 LoC, 2013-11-17 9403bd0 gitk: Support showing the gathered inline diffs
+   35 LoC,   gitk-git/gitk
+................................................................................
+   10 LoC, 2013-11-17 b449eb2 gitk: Split out diff part in $commitinfo
+   10 LoC,   gitk-git/gitk
+................................................................................
+   46 LoC, 2013-11-17 5de460a gitk: Refactor per-line part of getblobdiffline and its support
+   46 LoC,   gitk-git/gitk
+................................................................................
+    1 LoC, 2013-11-17 71846c5 gitk: Support -G option from the command line
+    1 LoC,   gitk-git/gitk
+................................................................................
+   74 LoC, 2013-11-13 83786fa config: arbitrary number of matches for --unset and --replace-all
+   61 LoC,   t/t1303-wacky-config.sh
+   13 LoC,   config.c
+................................................................................
+   82 LoC, 2013-10-21 744db23 Documentation: revamp gitk(1)
+   82 LoC,   Documentation/gitk.txt
+................................................................................
+   11 LoC, 2013-10-20 633fe50 Revert "test-lib: allow prefixing a custom string before "ok N" etc."
+   11 LoC,   t/test-lib.sh
+................................................................................
+    4 LoC, 2013-10-20 26a0730 Revert "test-lib: support running tests under valgrind in parallel"
+    4 LoC,   t/test-lib.sh
+................................................................................
+    3 LoC, 2013-10-14 22bbdde .mailmap: switch to Thomas Rast's personal address
+    3 LoC,   .mailmap
+................................................................................
+    5 LoC, 2013-09-13 a7f0a0e urlmatch.c: recompute pointer after append_normalized_escapes
+    5 LoC,   urlmatch.c
+................................................................................
+   46 LoC, 2013-08-03 838f9a1 log: use true parents for diff when walking reflogs
+   24 LoC,   revision.c
+   22 LoC,   t/t1411-reflog-show.sh

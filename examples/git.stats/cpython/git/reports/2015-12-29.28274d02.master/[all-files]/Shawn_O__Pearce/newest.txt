@@ -1,0 +1,75 @@
+================================================================================
+Shawn O. Pearce: 850 commits 24636 LoC
+................................................................................
+  416 LoC, 2013-08-21 4c6fffe Document the HTTP transport protocols
+  416 LoC,   Documentation/technical/http-protocol.txt
+................................................................................
+   33 LoC, 2013-02-01 4656bf4 Verify Content-Type from smart HTTP servers
+   11 LoC,   remote-curl.c
+   10 LoC,   t/lib-httpd/broken-smart-http.sh
+    5 LoC,   http.c
+................................................................................
+    5 LoC, 2012-09-20 aa90b96 Enable info/refs gzip decompression in HTTP client
+    2 LoC,   remote-curl.c
+    2 LoC,   t/t5551-http-fetch-smart.sh
+    1 LoC,   http.c
+................................................................................
+   32 LoC, 2012-01-20 5238cbf remote-curl: Fix push status report when all branches fail
+   27 LoC,   t/t5541-http-push-smart.sh
+    5 LoC,   remote-curl.c
+................................................................................
+    7 LoC, 2011-10-05 6cdf022 remote-curl: Fix warning after HTTP failure
+    7 LoC,   remote-curl.c
+................................................................................
+    8 LoC, 2011-03-15 49bee71 upload-pack: More aggressively send 'ACK %s ready'
+    8 LoC,   upload-pack.c
+................................................................................
+   26 LoC, 2011-03-03 d131b7a sha1_file.c: Don't retain open fds on small packs
+   23 LoC,   sha1_file.c
+    2 LoC,   cache.h
+    1 LoC,   fast-import.c
+................................................................................
+   17 LoC, 2011-03-01 c793430 Limit file descriptors used by packs
+   17 LoC,   sha1_file.c
+................................................................................
+   28 LoC, 2011-02-16 206b099 smart-http: Don't use Expect: 100-Continue
+   28 LoC,   remote-curl.c
+................................................................................
+   10 LoC, 2010-11-02 f2e872a Work around EMFILE when there are too many pack files
+   10 LoC,   sha1_file.c
+................................................................................
+    3 LoC, 2010-08-07 b4ee10f smart-http: Don't deadlock on server failure
+    3 LoC,   remote-curl.c
+................................................................................
+   46 LoC, 2010-04-20 750ef42 http-fetch: Use temporary files for pack-*.idx until verified
+   34 LoC,   http.c
+   12 LoC,   t/t5550-http-fetch-dumb.sh
+................................................................................
+   47 LoC, 2010-04-20 fe72d42 http-fetch: Use index-pack rather than verify-pack to check packs
+   29 LoC,   http.c
+   18 LoC,   t/t5550-http-fetch-dumb.sh
+................................................................................
+    2 LoC, 2010-04-20 7b64469 Allow parse_pack_index on temporary files
+    1 LoC,   cache.h
+    1 LoC,   sha1_file.c
+................................................................................
+    9 LoC, 2010-04-20 9b0aa72 Extract verify_pack_index for reuse from verify_pack
+    8 LoC,   pack-check.c
+    1 LoC,   pack.h
+................................................................................
+   10 LoC, 2010-04-20 fa5fc15 Introduce close_pack_index to permit replacement
+    9 LoC,   sha1_file.c
+    1 LoC,   cache.h
+................................................................................
+    2 LoC, 2010-04-20 162eb5f http.c: Remove unnecessary strdup of sha1_to_hex result
+    2 LoC,   http.c
+................................................................................
+    5 LoC, 2010-04-18 0da8b2e http.c: Don't store destination name in request structures
+    4 LoC,   http.c
+    1 LoC,   http-walker.c
+................................................................................
+    2 LoC, 2010-04-18 021ab6f http.c: Tiny refactoring of finish_http_pack_request
+    2 LoC,   http.c
+................................................................................
+    2 LoC, 2010-04-18 d761b2a t5550-http-fetch: Use subshell for repository operations
+    2 LoC,   t/t5550-http-fetch-dumb.sh

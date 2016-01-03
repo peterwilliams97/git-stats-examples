@@ -1,0 +1,70 @@
+================================================================================
+Junio C Hamano: 4736 commits 115080 LoC
+................................................................................
+    4 LoC, 2005-04-16 aa1c48d [PATCH] ls-tree enhancements
+    4 LoC,   builtin/ls-tree.c
+................................................................................
+    1 LoC, 2005-04-16 b83c834 [PATCH] Add -z option to show-files
+    1 LoC,   builtin/ls-files.c
+................................................................................
+    3 LoC, 2005-04-17 aee4619 [PATCH] Add --stage to show-files for new stage dircache.
+    3 LoC,   cache.h
+................................................................................
+    1 LoC, 2005-04-17 b8f8092 [PATCH] Optionally tell show-diff to show only named files
+    1 LoC,   builtin/diff-files.c
+................................................................................
+    2 LoC, 2005-04-18 c4e3cca [PATCH] update-cache --remove marks the path merged.
+    2 LoC,   read-cache.c
+................................................................................
+    2 LoC, 2005-04-18 a38800f [PATCH] Better error message from checkout-cache for unmerged files.
+    2 LoC,   builtin/checkout-index.c
+................................................................................
+   17 LoC, 2005-04-21 f4913f9 [PATCH] Accept commit in some places when tree is needed.
+   15 LoC,   sha1_file.c
+    2 LoC,   cache.h
+................................................................................
+    3 LoC, 2005-04-21 c5bac17 [PATCH] Usage-string fixes.
+    1 LoC,   builtin/commit-tree.c
+    1 LoC,   builtin/diff-index.c
+    1 LoC,   builtin/read-tree.c
+................................................................................
+    8 LoC, 2005-04-26 86436c2 [PATCH] Split external diff command interface to a separate file.
+    6 LoC,   diff.h
+    2 LoC,   diff-lib.c
+................................................................................
+   19 LoC, 2005-04-26 d1df574 [PATCH] Introduce diff-tree-helper.
+   13 LoC,   strbuf.c
+    6 LoC,   strbuf.h
+................................................................................
+    9 LoC, 2005-04-27 be3cfa8 [PATCH] Diff-tree-helper take two.
+    6 LoC,   diff-lib.c
+    3 LoC,   diff.h
+................................................................................
+    1 LoC, 2005-04-28 3ebfd4a [PATCH] Add -p (patch) to diff-tree.
+    1 LoC,   builtin/diff-tree.c
+................................................................................
+    1 LoC, 2005-04-28 4a6bf9e [PATCH] Reactivate show-diff patch generation
+    1 LoC,   builtin/diff-files.c
+................................................................................
+    1 LoC, 2005-04-28 f92a446 [PATCH] Add -p (patch) to diff-cache.
+    1 LoC,   builtin/diff-index.c
+................................................................................
+    8 LoC, 2005-04-28 77eb272 [PATCH] Reworked external diff interface.
+    7 LoC,   diff.h
+    1 LoC,   diff-lib.c
+................................................................................
+    1 LoC, 2005-04-29 532149d [PATCH] diff.c: clean temporary files
+    1 LoC,   diff-lib.c
+................................................................................
+   23 LoC, 2005-04-29 40469ee [PATCH] Rename and extend read_tree_with_tree_or_commit_sha1
+   21 LoC,   sha1_file.c
+    2 LoC,   cache.h
+................................................................................
+    3 LoC, 2005-05-02 74400e7 Add git-write-blob.
+    3 LoC,   sha1_file.c
+................................................................................
+    5 LoC, 2005-05-02 ee28152 Update git-merge-one-file-script.
+    5 LoC,   git-merge-one-file.sh
+................................................................................
+    4 LoC, 2005-05-04 b2d62f1 Make git-*-pull say who wants them for missing objects.
+    4 LoC,   walker.c

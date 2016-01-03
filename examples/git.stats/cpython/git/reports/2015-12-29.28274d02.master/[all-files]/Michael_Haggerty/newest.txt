@@ -1,0 +1,74 @@
+================================================================================
+Michael Haggerty: 427 commits 14649 LoC
+................................................................................
+  183 LoC, 2015-11-10 4cb7700 refs/refs-internal.h: new header file
+  180 LoC,   refs/refs-internal.h
+    3 LoC,   refs.c
+................................................................................
+ 3547 LoC, 2015-11-10 7bd9bcf refs: split filesystem-based refs code into a new file
+ 3499 LoC,   refs/files-backend.c
+   46 LoC,   refs.c
+    2 LoC,   Makefile
+................................................................................
+   23 LoC, 2015-08-13 284098f diff: use tempfile module
+   23 LoC,   diff.c
+................................................................................
+    6 LoC, 2015-08-10 9e90331 credential-cache--daemon: use tempfile module
+    6 LoC,   credential-cache--daemon.c
+................................................................................
+    1 LoC, 2015-08-10 18a3de4 credential-cache--daemon: delete socket from main()
+    1 LoC,   credential-cache--daemon.c
+................................................................................
+    5 LoC, 2015-08-10 ebebeae gc: use tempfile module to handle gc.pid file
+    5 LoC,   builtin/gc.c
+................................................................................
+    5 LoC, 2015-08-10 00539ce lock_repo_for_gc(): compute the path to "gc.pid" only once
+    5 LoC,   builtin/gc.c
+................................................................................
+    7 LoC, 2015-08-10 6e122b4 setup_temporary_shallow(): use tempfile module
+    7 LoC,   shallow.c
+................................................................................
+    5 LoC, 2015-08-10 f6ecc62 write_shared_index(): use tempfile module
+    5 LoC,   read-cache.c
+................................................................................
+   16 LoC, 2015-08-10 9939715 register_tempfile(): new function to handle an existing temporary file
+    8 LoC,   tempfile.c
+    8 LoC,   tempfile.h
+................................................................................
+  134 LoC, 2015-08-10 354ab11 tempfile: add several functions for creating temporary files
+   96 LoC,   tempfile.h
+   38 LoC,   tempfile.c
+................................................................................
+   10 LoC, 2015-08-10 7eba6ce prepare_tempfile_object(): new function, extracted from create_tempfile()
+   10 LoC,   tempfile.c
+................................................................................
+  480 LoC, 2015-08-10 1a9d15d tempfile: a new module for handling temporary files
+  249 LoC,   tempfile.c
+  167 LoC,   tempfile.h
+   48 LoC,   lockfile.h
+................................................................................
+    5 LoC, 2015-08-10 9c77381 commit_lock_file(): use get_locked_file_path()
+    5 LoC,   lockfile.c
+................................................................................
+   23 LoC, 2015-08-10 b4fb09e lockfile: add accessor get_lock_file_path()
+    8 LoC,   builtin/commit.c
+    7 LoC,   config.c
+    5 LoC,   lockfile.h
+................................................................................
+    3 LoC, 2015-08-10 c99a4c2 lockfile: add accessors get_lock_file_fd() and get_lock_file_fp()
+    1 LoC,   credential-store.c
+    1 LoC,   lockfile.h
+    1 LoC,   read-cache.c
+................................................................................
+   16 LoC, 2015-08-10 e54c347 create_bundle(): duplicate file descriptor to avoid closing it twice
+   16 LoC,   bundle.c
+................................................................................
+  197 LoC, 2015-08-10 2db69de lockfile: move documentation to lockfile.h and lockfile.c
+  196 LoC,   lockfile.h
+    1 LoC,   lockfile.c
+................................................................................
+    1 LoC, 2015-07-29 bc598c3 get_remote_group(): use skip_prefix()
+    1 LoC,   builtin/fetch.c
+................................................................................
+    2 LoC, 2015-07-29 5f65499 get_remote_group(): eliminate superfluous call to strcspn()
+    2 LoC,   builtin/fetch.c

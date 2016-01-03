@@ -1,0 +1,73 @@
+================================================================================
+Nguyễn Thái Ngọc Duy: 709 commits 20908 LoC
+................................................................................
+    2 LoC, 2006-10-19 8a83157 Reject hexstring longer than 40-bytes in get_short_sha1()
+    2 LoC,   sha1_name.c
+................................................................................
+   37 LoC, 2007-09-18 7f8cfad contrib/fast-import: add simple shell example
+   37 LoC,   contrib/fast-import/git-import.sh
+................................................................................
+    1 LoC, 2007-10-27 6b9ff1e git-sh-setup.sh: use "git rev-parse --show-cdup" to check for SUBDIRECTORY_OK
+    1 LoC,   git-sh-setup.sh
+................................................................................
+   19 LoC, 2007-11-29 f28ac70 Move all dashed-form commands to libexecdir
+   12 LoC,   check_bindir
+    7 LoC,   git.spec.in
+................................................................................
+   36 LoC, 2007-12-06 9459aa7 Do check_repository_format() early (re-fix)
+   27 LoC,   t/t1302-repo-version.sh
+    9 LoC,   setup.c
+................................................................................
+   29 LoC, 2008-08-28 4f38f6b diff*: fix worktree setup
+   26 LoC,   t/t1501-worktree.sh
+    1 LoC,   builtin/diff-index.c
+    1 LoC,   builtin/diff.c
+................................................................................
+    2 LoC, 2008-08-28 b6469a8 read-tree: setup worktree if merge is required
+    2 LoC,   builtin/read-tree.c
+................................................................................
+    5 LoC, 2008-08-28 6577f54 grep: fix worktree setup
+    3 LoC,   t/t1501-worktree.sh
+    2 LoC,   builtin/grep.c
+................................................................................
+    2 LoC, 2008-08-30 f83eafd update-index: fix worktree setup
+    2 LoC,   builtin/update-index.c
+................................................................................
+   52 LoC, 2008-10-01 06aaaa0 Extend index to save more flags
+   28 LoC,   read-cache.c
+   24 LoC,   cache.h
+................................................................................
+   11 LoC, 2008-12-27 57d4346 grep: grep cache entries if they are "assume unchanged"
+    6 LoC,   t/t7810-grep.sh
+    5 LoC,   builtin/grep.c
+................................................................................
+    1 LoC, 2009-04-17 55f0566 get_local_heads(): do not return random pointer if there is no head
+    1 LoC,   remote.c
+................................................................................
+   10 LoC, 2009-04-18 4191e80 attr: add GIT_ATTR_INDEX "direction"
+    9 LoC,   attr.c
+    1 LoC,   attr.h
+................................................................................
+   24 LoC, 2009-04-18 ba053ea archive: do not read .gitattributes in working directory
+   21 LoC,   archive.c
+    2 LoC,   Documentation/git-archive.txt
+    1 LoC,   archive.h
+................................................................................
+    1 LoC, 2009-05-07 c5ae7cb t4029: use sh instead of bash
+    1 LoC,   t/t4029-diff-trailing-space.sh
+................................................................................
+    1 LoC, 2009-05-21 a80aad7 Terminate argv with NULL before calling setup_revisions()
+    1 LoC,   bundle.c
+................................................................................
+    1 LoC, 2009-05-21 06f3919 doc/git-rebase.txt: remove mention of multiple strategies
+    1 LoC,   Documentation/git-rebase.txt
+................................................................................
+    7 LoC, 2009-05-24 7a7eb51 t/t3400-rebase.sh: add more tests to help migrating git-rebase.sh to C
+    7 LoC,   t/t3400-rebase.sh
+................................................................................
+   33 LoC, 2009-08-12 540e694 Prevent diff machinery from examining assume-unchanged entries on worktree
+   31 LoC,   t/t4039-diff-assume-unchanged.sh
+    2 LoC,   diff-lib.c
+................................................................................
+    7 LoC, 2009-08-20 83b327b update-index: refactor mark_valid() in preparation for new options
+    7 LoC,   builtin/update-index.c

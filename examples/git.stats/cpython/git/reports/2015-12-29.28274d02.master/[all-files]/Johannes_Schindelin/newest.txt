@@ -1,0 +1,78 @@
+================================================================================
+Johannes Schindelin: 534 commits 15963 LoC
+................................................................................
+   20 LoC, 2015-12-18 2b86292 mingw: emulate write(2) that fails with a EPIPE
+   17 LoC,   compat/mingw.c
+    3 LoC,   compat/mingw.h
+................................................................................
+   19 LoC, 2015-10-31 6a94088 test: facilitate debugging Git executables in tests with gdb
+    8 LoC,   t/test-lib-functions.sh
+    6 LoC,   wrap-for-bin.sh
+    5 LoC,   t/README
+................................................................................
+   11 LoC, 2015-10-29 1db25aa t3404: "rebase -i" gets broken when insn sheet uses CR/LF line endings
+   11 LoC,   t/t3404-rebase-interactive.sh
+................................................................................
+    6 LoC, 2015-10-27 56a1a3a Silence GCC's "cast of pointer to integer of a different size" warning
+    4 LoC,   compat/regex/regcomp.c
+    1 LoC,   pack-revindex.c
+    1 LoC,   sha1_file.c
+................................................................................
+    1 LoC, 2015-10-27 8f77442 Squelch warning about an integer overflow
+    1 LoC,   git-compat-util.h
+................................................................................
+    4 LoC, 2015-10-27 71d9257 imap-send: only use CURLOPT_LOGIN_OPTIONS if it is actually available
+    4 LoC,   imap-send.c
+................................................................................
+    4 LoC, 2015-10-07 786b150 clone --dissociate: avoid locking pack files
+    3 LoC,   builtin/clone.c
+    1 LoC,   t/t5700-clone-reference.sh
+................................................................................
+   18 LoC, 2015-10-07 38849a8 sha1_file.c: add a function to release all packs
+   17 LoC,   sha1_file.c
+    1 LoC,   cache.h
+................................................................................
+   18 LoC, 2015-10-06 71fe5d7 sha1_file: consolidate code to close a pack's file descriptor
+   18 LoC,   sha1_file.c
+................................................................................
+   20 LoC, 2015-10-06 11911bf t5700: demonstrate a Windows file locking issue with `git clone --dissociate`
+   20 LoC,   t/t5700-clone-reference.sh
+................................................................................
+   10 LoC, 2015-09-29 63ec5e1 setup: fix "inside work tree" detection on case-insensitive filesystems
+   10 LoC,   dir.c
+................................................................................
+    7 LoC, 2015-09-29 14886b4 pack-objects: do not get distracted by broken symrefs
+    6 LoC,   reachable.c
+    1 LoC,   t/t6500-gc.sh
+................................................................................
+   12 LoC, 2015-09-29 8c845cd gc: demonstrate failure with stale remote HEAD
+   12 LoC,   t/t6500-gc.sh
+................................................................................
+    1 LoC, 2015-09-09 b9d6689 am --skip/--abort: merge HEAD/ORIG_HEAD tree into index
+    1 LoC,   contrib/examples/git-am.sh
+................................................................................
+   14 LoC, 2015-06-23 1335f73 fsck: support ignoring objects in `git fsck` via fsck.skiplist
+   13 LoC,   builtin/fsck.c
+    1 LoC,   Documentation/config.txt
+................................................................................
+   84 LoC, 2015-06-23 cd94c6f fsck: git receive-pack: support excluding objects from fsck'ing
+   49 LoC,   fsck.c
+   15 LoC,   Documentation/config.txt
+   11 LoC,   builtin/receive-pack.c
+................................................................................
+   31 LoC, 2015-06-23 02976bf fsck: introduce `git fsck --connectivity-only`
+   22 LoC,   t/t1450-fsck.sh
+    6 LoC,   Documentation/git-fsck.txt
+    3 LoC,   builtin/fsck.c
+................................................................................
+   30 LoC, 2015-06-23 2becf00 fsck: support demoting errors to warnings
+   11 LoC,   Documentation/config.txt
+   11 LoC,   builtin/fsck.c
+    8 LoC,   t/t1450-fsck.sh
+................................................................................
+   14 LoC, 2015-06-23 4b55b9b fsck: document the new receive.fsck.<msg-id> options
+   14 LoC,   Documentation/config.txt
+................................................................................
+   18 LoC, 2015-06-23 f27d05b fsck: allow upgrading fsck warnings to errors
+   17 LoC,   fsck.c
+    1 LoC,   t/t5302-pack-index.sh

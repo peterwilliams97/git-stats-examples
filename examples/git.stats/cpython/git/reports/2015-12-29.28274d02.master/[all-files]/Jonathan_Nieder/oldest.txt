@@ -1,0 +1,82 @@
+================================================================================
+Jonathan Nieder: 587 commits 15266 LoC
+................................................................................
+    2 LoC, 2008-06-30 bd87087 Documentation: don't assume git-sh-setup and git-parse-remote are in PATH
+    1 LoC,   Documentation/git-parse-remote.txt
+    1 LoC,   Documentation/git-sh-setup.txt
+................................................................................
+  189 LoC, 2008-06-30 b1889c3 Documentation: be consistent about "git-" versus "git "
+   32 LoC,   Documentation/gitcore-tutorial.txt
+   16 LoC,   Documentation/user-manual.txt
+   13 LoC,   Documentation/git-read-tree.txt
+................................................................................
+   66 LoC, 2008-07-01 483bc4f Documentation formatting and cleanup
+    8 LoC,   Documentation/git-svn.txt
+    5 LoC,   Documentation/git-merge.txt
+    5 LoC,   Documentation/gittutorial-2.txt
+................................................................................
+   28 LoC, 2008-07-01 6998e4d Documentation: fix links to tutorials and other new manual pages
+    6 LoC,   Documentation/git.txt
+    5 LoC,   Documentation/gitcvs-migration.txt
+    4 LoC,   Documentation/gittutorial-2.txt
+................................................................................
+    1 LoC, 2008-07-01 3861cd5 Documentation: complicate example of "man git-command"
+    1 LoC,   Documentation/gittutorial.txt
+................................................................................
+    5 LoC, 2008-07-01 963a653 git-daemon(1): don't assume git-daemon is in /usr/bin
+    5 LoC,   Documentation/git-daemon.txt
+................................................................................
+    2 LoC, 2008-07-01 46e56e8 Documentation: prepare to be consistent about "git-" versus "git "
+    1 LoC,   Documentation/git-tag.txt
+    1 LoC,   Documentation/gittutorial.txt
+................................................................................
+    1 LoC, 2008-07-03 9c67c75 git-format-patch(1): fix stray \ in output
+    1 LoC,   Documentation/git-format-patch.txt
+................................................................................
+    2 LoC, 2008-07-03 0cafe94 Documentation: fix gitlinks
+    1 LoC,   Documentation/git-repack.txt
+    1 LoC,   Documentation/user-manual.txt
+................................................................................
+    1 LoC, 2008-07-03 56992f7 git(1): add comma
+    1 LoC,   Documentation/git.txt
+................................................................................
+    2 LoC, 2008-07-03 d69806d git-commit(1): depersonalize description
+    2 LoC,   Documentation/git-commit.txt
+................................................................................
+    2 LoC, 2008-07-03 7a7d4ef Documentation: rewrap to prepare for "git-" vs "git " change
+    2 LoC,   Documentation/user-manual.txt
+................................................................................
+    5 LoC, 2008-07-03 467c019 Documentation: more "git-" versus "git " changes
+    3 LoC,   Documentation/user-manual.txt
+    1 LoC,   Documentation/git-format-patch.txt
+    1 LoC,   Documentation/git-rebase.txt
+................................................................................
+    1 LoC, 2008-07-03 877276d gitdiffcore(7): fix awkward wording
+    1 LoC,   Documentation/gitdiffcore.txt
+................................................................................
+    1 LoC, 2008-07-03 04c2407 manpages: italicize command names in synopses
+    1 LoC,   Documentation/git-reflog.txt
+................................................................................
+    5 LoC, 2008-07-03 0979c10 manpages: italicize command names
+    2 LoC,   Documentation/git-apply.txt
+    2 LoC,   Documentation/gitdiffcore.txt
+    1 LoC,   Documentation/git-merge-index.txt
+................................................................................
+   39 LoC, 2008-07-03 ba020ef manpages: italicize git command names (which were in teletype font)
+   15 LoC,   Documentation/git-cvsserver.txt
+    7 LoC,   Documentation/githooks.txt
+    4 LoC,   Documentation/git-receive-pack.txt
+................................................................................
+    2 LoC, 2008-07-03 42d36bb manpages: italicize gitk's name (where it was in teletype font)
+    1 LoC,   Documentation/git-gui.txt
+    1 LoC,   Documentation/gitcore-tutorial.txt
+................................................................................
+   19 LoC, 2008-07-03 2fd02c9 manpages: italicize nongit command names (if they are in teletype font)
+    7 LoC,   Documentation/gitcore-tutorial.txt
+    2 LoC,   Documentation/git-cvsserver.txt
+    2 LoC,   Documentation/git-merge-index.txt
+................................................................................
+    6 LoC, 2008-07-03 5833d73 manpages: italicize git subcommand names (which were in teletype font)
+    2 LoC,   Documentation/config.txt
+    2 LoC,   Documentation/gitcore-tutorial.txt
+    2 LoC,   Documentation/gitcvs-migration.txt
