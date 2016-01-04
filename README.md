@@ -14,7 +14,7 @@ e.g. For repository [cpython](https://github.com/python/cpython.git)
           └── reports
               └── 2015-12-29.28274d02.master  Revision 28274d02 which was created on 2015-12-22 on
                   │                           on branch "master".
-                  └── [\[all-files\](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)             Report on all files in this revision
+                  └── [\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)             Report on all files in this revision
                       ├── README              Summary of files in [all-files]
                       ├── author_ext_files.csv Number of files of given extension in which author has code
                       ├── author_ext_loc.csv  Number of LoC author in files of given extension by author
