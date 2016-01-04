@@ -1,61 +1,61 @@
-b'================================================================================'
-b'Thomas Rast: 9 peaks 8311 LoC'
-b'................................................................................'
-b'  9) 5 commits 87 LoC around 2008-09-04'
-b'    5 LoC, 2008-08-27 edde911 git svn info: make info relative to the current directory'
-b"   12 LoC, 2008-08-27 05427b9 git svn info: always quote URLs in 'info' output"
-b"    2 LoC, 2008-08-29 2cf3e3a git-svn: match SVN 1.5 behaviour of info' on unknown item"
-b"   14 LoC, 2008-08-29 4457d4f git-svn: fix 'info' tests for unknown items"
-b'   54 LoC, 2008-08-30 498bcd3 rev-list: fix --reverse interaction with --parents'
-b'................................................................................'
-b'  3) 22 commits 929 LoC around 2009-02-13'
-b'  180 LoC, 2009-02-04 e1ff064 contrib git-resurrect: find traces of a branch name and resurrect it'
-b'  145 LoC, 2009-02-19 289e162 Test log --graph'
-b'   67 LoC, 2009-02-19 02a6552 Test fsck a bit harder'
-b'  135 LoC, 2009-02-20 484cf6c format-patch: threading test reactivation'
-b'  107 LoC, 2009-02-20 30984ed format-patch: support deep threading'
-b'................................................................................'
-b'  7) 10 commits 483 LoC around 2009-08-15'
-b'   46 LoC, 2009-08-13 8f0bef6 git-apply--interactive: Refactor patch mode code'
-b'   36 LoC, 2009-08-13 b319ef7 Add a small patch-mode testing library'
-b"  101 LoC, 2009-08-13 dda1f2a Implement 'git stash save --patch'"
-b"  163 LoC, 2009-08-15 4f35365 Implement 'git checkout --patch'"
-b"  100 LoC, 2009-08-15 d002ef4 Implement 'git reset --patch'"
-b'................................................................................'
-b'  6) 5 commits 577 LoC around 2010-01-08'
-b'    5 LoC, 2010-01-08 57bddb1 Documentation/git-merge: reword references to "remote" and "pull"'
-b'    3 LoC, 2010-01-08 e330d8c Documentation: warn prominently against merging with dirty trees'
-b'   17 LoC, 2010-01-08 ca76828 Documentation: format full commands in typewriter font'
-b"  551 LoC, 2010-01-10 0b444cd Documentation: spell 'git cmd' without dash throughout"
-b'    1 LoC, 2010-01-10 4fdff3d Documentation: show-files is now called git-ls-files'
-b'................................................................................'
-b'  4) 13 commits 850 LoC around 2010-03-17'
-b'  245 LoC, 2010-03-13 894a9d3 Support showing notes from more than one notes tree'
-b'   79 LoC, 2010-03-13 6f6bee3 commit --amend: invoke post-rewrite hook'
-b'  100 LoC, 2010-03-13 96e1948 rebase: invoke post-rewrite hook'
-b"   86 LoC, 2010-03-13 160baa0 notes: implement 'git notes copy --stdin'"
-b'  155 LoC, 2010-03-13 6956f85 notes: implement helpers needed for note copying during rewrite'
-b'................................................................................'
-b'  5) 1 commits 654 LoC around 2010-12-22'
-b'  654 LoC, 2010-12-19 8d96e72 t4034: bulk verify builtin word regex sanity'
-b'................................................................................'
-b'  2) 6 commits 1308 LoC around 2012-02-19'
-b'  526 LoC, 2012-02-17 12a29b1 Move the user-facing test library to test-lib-functions.sh'
-b'  713 LoC, 2012-02-17 342e9ef Introduce a performance testing framework'
-b'   23 LoC, 2012-02-17 134593c Add a performance test for git-grep'
-b'   18 LoC, 2012-02-23 5e8617f bundle: put strbuf_readline_fd in strbuf.c with adjustments'
-b'   20 LoC, 2012-02-23 bc2fed4 bundle: use a strbuf to scan the log for boundary commits'
-b'................................................................................'
-b'  1) 15 commits 3098 LoC around 2013-04-01'
-b'   69 LoC, 2013-03-26 790d96c sha1_file: remove recursion in packed_object_info'
-b'  117 LoC, 2013-03-28 abe601b sha1_file: remove recursion in unpack_entry'
-b' 2070 LoC, 2013-03-29 12da1d1 Implement line-history search (git log -L)'
-b'  309 LoC, 2013-03-29 13b8f68 log -L: :pattern:file syntax to find by funcname'
-b'  376 LoC, 2013-04-06 2096188 log -L: fix overlapping input ranges'
-b'................................................................................'
-b'  8) 10 commits 325 LoC around 2013-11-17'
-b'   74 LoC, 2013-11-13 83786fa config: arbitrary number of matches for --unset and --replace-all'
-b'   46 LoC, 2013-11-17 5de460a gitk: Refactor per-line part of getblobdiffline and its support'
-b'   35 LoC, 2013-11-17 9403bd0 gitk: Support showing the gathered inline diffs'
-b'  110 LoC, 2013-11-23 7c801fb Documentation: revamp git-cherry(1)'
-b'   17 LoC, 2013-11-26 e9e03a7 commit-slab: declare functions "static inline"'
+================================================================================
+Thomas Rast: 9 peaks 8311 LoC
+................................................................................
+  9) 5 commits 87 LoC around 2008-09-04
+    5 LoC, 2008-08-27 edde911 git svn info: make info relative to the current directory
+   12 LoC, 2008-08-27 05427b9 git svn info: always quote URLs in 'info' output
+    2 LoC, 2008-08-29 2cf3e3a git-svn: match SVN 1.5 behaviour of info' on unknown item
+   14 LoC, 2008-08-29 4457d4f git-svn: fix 'info' tests for unknown items
+   54 LoC, 2008-08-30 498bcd3 rev-list: fix --reverse interaction with --parents
+................................................................................
+  3) 22 commits 929 LoC around 2009-02-13
+  180 LoC, 2009-02-04 e1ff064 contrib git-resurrect: find traces of a branch name and resurrect it
+  145 LoC, 2009-02-19 289e162 Test log --graph
+   67 LoC, 2009-02-19 02a6552 Test fsck a bit harder
+  135 LoC, 2009-02-20 484cf6c format-patch: threading test reactivation
+  107 LoC, 2009-02-20 30984ed format-patch: support deep threading
+................................................................................
+  7) 10 commits 483 LoC around 2009-08-15
+   46 LoC, 2009-08-13 8f0bef6 git-apply--interactive: Refactor patch mode code
+   36 LoC, 2009-08-13 b319ef7 Add a small patch-mode testing library
+  101 LoC, 2009-08-13 dda1f2a Implement 'git stash save --patch'
+  163 LoC, 2009-08-15 4f35365 Implement 'git checkout --patch'
+  100 LoC, 2009-08-15 d002ef4 Implement 'git reset --patch'
+................................................................................
+  6) 5 commits 577 LoC around 2010-01-08
+    5 LoC, 2010-01-08 57bddb1 Documentation/git-merge: reword references to "remote" and "pull"
+    3 LoC, 2010-01-08 e330d8c Documentation: warn prominently against merging with dirty trees
+   17 LoC, 2010-01-08 ca76828 Documentation: format full commands in typewriter font
+  551 LoC, 2010-01-10 0b444cd Documentation: spell 'git cmd' without dash throughout
+    1 LoC, 2010-01-10 4fdff3d Documentation: show-files is now called git-ls-files
+................................................................................
+  4) 13 commits 850 LoC around 2010-03-17
+  245 LoC, 2010-03-13 894a9d3 Support showing notes from more than one notes tree
+   79 LoC, 2010-03-13 6f6bee3 commit --amend: invoke post-rewrite hook
+  100 LoC, 2010-03-13 96e1948 rebase: invoke post-rewrite hook
+   86 LoC, 2010-03-13 160baa0 notes: implement 'git notes copy --stdin'
+  155 LoC, 2010-03-13 6956f85 notes: implement helpers needed for note copying during rewrite
+................................................................................
+  5) 1 commits 654 LoC around 2010-12-22
+  654 LoC, 2010-12-19 8d96e72 t4034: bulk verify builtin word regex sanity
+................................................................................
+  2) 6 commits 1308 LoC around 2012-02-19
+  526 LoC, 2012-02-17 12a29b1 Move the user-facing test library to test-lib-functions.sh
+  713 LoC, 2012-02-17 342e9ef Introduce a performance testing framework
+   23 LoC, 2012-02-17 134593c Add a performance test for git-grep
+   18 LoC, 2012-02-23 5e8617f bundle: put strbuf_readline_fd in strbuf.c with adjustments
+   20 LoC, 2012-02-23 bc2fed4 bundle: use a strbuf to scan the log for boundary commits
+................................................................................
+  1) 15 commits 3098 LoC around 2013-04-01
+   69 LoC, 2013-03-26 790d96c sha1_file: remove recursion in packed_object_info
+  117 LoC, 2013-03-28 abe601b sha1_file: remove recursion in unpack_entry
+ 2070 LoC, 2013-03-29 12da1d1 Implement line-history search (git log -L)
+  309 LoC, 2013-03-29 13b8f68 log -L: :pattern:file syntax to find by funcname
+  376 LoC, 2013-04-06 2096188 log -L: fix overlapping input ranges
+................................................................................
+  8) 10 commits 325 LoC around 2013-11-17
+   74 LoC, 2013-11-13 83786fa config: arbitrary number of matches for --unset and --replace-all
+   46 LoC, 2013-11-17 5de460a gitk: Refactor per-line part of getblobdiffline and its support
+   35 LoC, 2013-11-17 9403bd0 gitk: Support showing the gathered inline diffs
+  110 LoC, 2013-11-23 7c801fb Documentation: revamp git-cherry(1)
+   17 LoC, 2013-11-26 e9e03a7 commit-slab: declare functions "static inline"

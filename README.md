@@ -14,7 +14,7 @@ e.g. For repository [cpython](https://github.com/python/cpython.git)
           └── reports
               └── 2015-12-29.28274d02.master  Revision 28274d02 which was created on 2015-12-22 on
                   │                           on branch "master".
-                  └── [\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)             Report on all files in this revision
+                  └── [all-files]             Report on all files in this revision
                       ├── README              Summary of files in [all-files]
                       ├── author_ext_files.csv Number of files of given extension in which author has code
                       ├── author_ext_loc.csv  Number of LoC author in files of given extension by author
@@ -37,10 +37,10 @@ e.g. For repository [cpython](https://github.com/python/cpython.git)
 
 ### A closer look at [2015-12-29.28274d02.master/\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)
 
-This directory contains files that report on the age of `Guido van Rossum`'s `*.c`, `*.cpp` and `*.h`
-code in revision `d68ed6fc`, the `cpython` `2.7` branch on 2015-12-22.
+This directory contains files that report on the age of all authors code for all files (i.e. every
+file) in revision `28274d02`, the `git` repository `master` branch on 2015-12-29.
 
-##### 1) [code-age.png](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/Guido_van_Rossum/code-age.png) is a graph showing the age of the code in question.
+##### 1) [code-age.png](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/code-age.png) is a graph showing the age of the code in question.
 
 The horizontal axis is date and the vertical axis is LoC /day. This means the area under the curve
 between two dates is the LoC surviving from the period bounded by those datess.
@@ -48,7 +48,7 @@ between two dates is the LoC surviving from the period bounded by those datess.
 You can see that some of Guido's C code from 1991 survives in the current Python 2.7 revision as
 does code up to 2008.
 
-![Age graph](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/Guido_van_Rossum/code-age.png)
+![Age graph](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/code-age.png)
 
 
 ##### 2) [code-age.txt](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/Guido_van_Rossum/code-age.txt) lists the commits in the peaks in code-age.png

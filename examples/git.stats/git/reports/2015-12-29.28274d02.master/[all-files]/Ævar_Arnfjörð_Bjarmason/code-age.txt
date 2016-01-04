@@ -1,26 +1,26 @@
-b'================================================================================'
-b'\xc3\x86var Arnfj\xc3\xb6r\xc3\xb0 Bjarmason: 4 peaks 13775 LoC'
-b'................................................................................'
-b'  1) 30 commits 11353 LoC around 2010-08-18'
-b'   19 LoC, 2010-08-12 e1697cc t/t3300-funny-names: change from skip_all=* to prereq skip'
-b'   33 LoC, 2010-08-14 f045931 t/t3701-add-interactive.sh: change from skip_all=* to prereq skip'
-b'   71 LoC, 2010-08-14 57cd35e t/t9001-send-email.sh: change from skip_all=* to prereq skip'
-b'   40 LoC, 2010-08-14 f944414 t/t9001-send-email.sh: convert setup code to tests'
-b'11015 LoC, 2010-08-17 d18f76d compat/regex: use the regex engine from gawk for compat'
-b'................................................................................'
-b'  4) 59 commits 563 LoC around 2011-02-23'
-b'   43 LoC, 2011-02-23 8a6179b i18n: git-commit basic messages'
-b'   27 LoC, 2011-02-23 5c5f1d7 i18n: git-log basic messages'
-b'   53 LoC, 2011-02-23 bacec47 i18n: git-merge basic messages'
-b'   31 LoC, 2011-02-23 355ec7a i18n: git-status basic messages'
-b'   35 LoC, 2011-02-23 caeba0e i18n: git-notes basic commands'
-b'................................................................................'
-b'  3) 42 commits 684 LoC around 2011-05-17'
-b'  487 LoC, 2011-05-14 ba67aaf git-sh-i18n--envsubst: our own envsubst(1) for eval_gettext()'
-b'   55 LoC, 2011-05-14 e00cf07 git-sh-i18n.sh: add no-op gettext() and eval_gettext() wrappers'
-b'   18 LoC, 2011-05-22 b1440ce i18n: git-stash die + gettext messages'
-b'    8 LoC, 2011-05-22 777b6f1 i18n: git-stash die + eval_gettext $* messages'
-b'   11 LoC, 2011-05-22 eed1064 i18n: git-stash "unknown option" message'
-b'................................................................................'
-b'  2) 1 commits 1175 LoC around 2011-11-19'
-b' 1175 LoC, 2011-11-18 5e9637c i18n: add infrastructure for translating Git with gettext'
+================================================================================
+Ævar Arnfjörð Bjarmason: 4 peaks 13775 LoC
+................................................................................
+  1) 30 commits 11353 LoC around 2010-08-18
+   19 LoC, 2010-08-12 e1697cc t/t3300-funny-names: change from skip_all=* to prereq skip
+   33 LoC, 2010-08-14 f045931 t/t3701-add-interactive.sh: change from skip_all=* to prereq skip
+   71 LoC, 2010-08-14 57cd35e t/t9001-send-email.sh: change from skip_all=* to prereq skip
+   40 LoC, 2010-08-14 f944414 t/t9001-send-email.sh: convert setup code to tests
+11015 LoC, 2010-08-17 d18f76d compat/regex: use the regex engine from gawk for compat
+................................................................................
+  4) 59 commits 563 LoC around 2011-02-23
+   43 LoC, 2011-02-23 8a6179b i18n: git-commit basic messages
+   27 LoC, 2011-02-23 5c5f1d7 i18n: git-log basic messages
+   53 LoC, 2011-02-23 bacec47 i18n: git-merge basic messages
+   31 LoC, 2011-02-23 355ec7a i18n: git-status basic messages
+   35 LoC, 2011-02-23 caeba0e i18n: git-notes basic commands
+................................................................................
+  3) 42 commits 684 LoC around 2011-05-17
+  487 LoC, 2011-05-14 ba67aaf git-sh-i18n--envsubst: our own envsubst(1) for eval_gettext()
+   55 LoC, 2011-05-14 e00cf07 git-sh-i18n.sh: add no-op gettext() and eval_gettext() wrappers
+   18 LoC, 2011-05-22 b1440ce i18n: git-stash die + gettext messages
+    8 LoC, 2011-05-22 777b6f1 i18n: git-stash die + eval_gettext $* messages
+   11 LoC, 2011-05-22 eed1064 i18n: git-stash "unknown option" message
+................................................................................
+  2) 1 commits 1175 LoC around 2011-11-19
+ 1175 LoC, 2011-11-18 5e9637c i18n: add infrastructure for translating Git with gettext

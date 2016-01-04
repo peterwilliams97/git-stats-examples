@@ -1,70 +1,70 @@
-b'================================================================================'
-b'Jeff King: 10 peaks 7898 LoC'
-b'................................................................................'
-b'  3) 30 commits 813 LoC around 2011-05-29'
-b'   73 LoC, 2011-05-20 902bb36 bisect: refactor sha1_array into a generic sha1 list'
-b'  178 LoC, 2011-05-24 4d5f347 combine-diff: handle binary files as binary'
-b'   88 LoC, 2011-05-24 0508fe5 combine-diff: respect textconv attributes'
-b'   75 LoC, 2011-05-27 00ebc97 t: test subject handling in format-patch / am pipeline'
-b'   72 LoC, 2011-06-03 3b36854 t: add tests for cloning remotes with detached HEAD'
-b'................................................................................'
-b'  1) 33 commits 2682 LoC around 2011-12-11'
-b'  706 LoC, 2011-12-10 abca927 introduce credentials API'
-b'  176 LoC, 2011-12-10 a6fc9fd docs: end-user documentation for the credential subsystem'
-b'  748 LoC, 2011-12-10 e277097 credentials: add "cache" helper'
-b'  216 LoC, 2011-12-10 71e1b4b credentials: add "store" helper'
-b'  183 LoC, 2011-12-10 34961d3 contrib: add credential helper for OS X Keychain'
-b'................................................................................'
-b'  8) 4 commits 613 LoC around 2012-12-29'
-b'   91 LoC, 2012-12-20 823ab40 add global --literal-pathspecs option'
-b'    7 LoC, 2012-12-30 b018ff6 unpack-trees: fix "read-tree -u --reset A B" with conflicted index'
-b'  510 LoC, 2013-01-04 e1b6dbb Makefile: hoist uname autodetection to config.mak.uname'
-b'    5 LoC, 2013-01-06 709ca73 run-command: encode signal death as a positive integer'
-b'................................................................................'
-b'  6) 38 commits 655 LoC around 2013-03-30'
-b'   34 LoC, 2013-03-26 7b6257b add test for streaming corrupt blobs'
-b'   39 LoC, 2013-03-26 0e15ad9 add tests for cloning corrupted repositories'
-b'   33 LoC, 2013-03-26 d9c31e1 streaming_write_entry: propagate streaming errors'
-b'  148 LoC, 2013-04-02 2e433b7 t5516 (fetch-push): drop implicit arguments from helper functions'
-b'   35 LoC, 2013-04-06 6d052d7 http: add HTTP_KEEP_ERROR option'
-b'................................................................................'
-b'  9) 10 commits 408 LoC around 2013-08-26'
-b'  192 LoC, 2013-08-24 171bdac sha1-lookup: handle duplicate keys with GIT_USE_LOOKUP'
-b'   81 LoC, 2013-08-24 3b910d0 add tests for indexing packs with delta cycles'
-b'   18 LoC, 2013-08-24 b2ef3d9 test index-pack on packs with recoverable delta cycles'
-b'   62 LoC, 2013-08-28 83bd743 write_index: optionally allow broken null sha1s'
-b'   17 LoC, 2013-08-28 f972a16 mailmap: handle mailmap blobs without trailing newlines'
-b'................................................................................'
-b' 10) 15 commits 413 LoC around 2013-12-26'
-b'   65 LoC, 2013-12-22 ce2bc42 pack-objects: split add_object_entry'
-b'  136 LoC, 2013-12-22 212f2ff t: add basic bitmap functionality tests'
-b'   52 LoC, 2013-12-22 bbcefa1 t/perf: add tests for pack bitmaps'
-b'   54 LoC, 2013-12-22 5d642e7 sha1_object_info_extended: provide delta base sha1s'
-b'   48 LoC, 2013-12-22 65ea9c3 cat-file: provide %(deltabase) batch format'
-b'................................................................................'
-b'  5) 30 commits 352 LoC around 2014-06-09'
-b'   26 LoC, 2014-06-11 3ffefb5 commit_tree: take a pointer/len pair rather than a const strbuf'
-b'   39 LoC, 2014-06-11 152ff1c provide helpers to access the commit buffer'
-b'   61 LoC, 2014-06-11 8597ea3 commit: record buffer length in cache'
-b'   23 LoC, 2014-06-13 0fb370d provide a helper to free commit buffer'
-b'   40 LoC, 2014-06-17 06ca0f4 t7510: check %G* pretty-format output'
-b'................................................................................'
-b'  7) 4 commits 104 LoC around 2014-10-03'
-b'   22 LoC, 2014-10-08 f6c5a29 color_parse: do not mention variable name in error message'
-b'   23 LoC, 2014-10-10 f1dd90b t5304: use test_path_is_* instead of "test -f"'
-b'   17 LoC, 2014-10-10 8ad1652 t5304: use helper to report failure of "test foo = bar"'
-b'   42 LoC, 2014-10-10 a136f6d test-lib.sh: support -x option for shell-tracing'
-b'................................................................................'
-b'  4) 60 commits 698 LoC around 2015-03-22'
-b'   44 LoC, 2015-03-20 60687de t: fix moderate &&-chain breakage'
-b'   70 LoC, 2015-03-20 99094a7 t: fix trivial &&-chain breakage'
-b'   38 LoC, 2015-03-20 c21fc9d t: use test_expect_code instead of hand-rolled comparison'
-b'  109 LoC, 2015-03-21 8b43fb1 t5312: test object deletion code paths in a corrupted repository'
-b'   29 LoC, 2015-03-23 911ec99 run-command: introduce capture_command helper'
-b'................................................................................'
-b'  2) 71 commits 1160 LoC around 2015-09-23'
-b'  239 LoC, 2015-09-17 a5adace transport: add a protocol-whitelist environment variable'
-b'   52 LoC, 2015-09-17 33cfccb submodule: allow only certain protocols for submodule fetches'
-b'   38 LoC, 2015-09-23 5088d3b transport: refactor protocol whitelist code'
-b'   63 LoC, 2015-09-25 af49c6d add reentrant variants of sha1_to_hex and find_unique_abbrev'
-b'   45 LoC, 2015-09-25 5096d49 convert trivial sprintf / strcpy calls to xsnprintf'
+================================================================================
+Jeff King: 10 peaks 7898 LoC
+................................................................................
+  3) 30 commits 813 LoC around 2011-05-29
+   73 LoC, 2011-05-20 902bb36 bisect: refactor sha1_array into a generic sha1 list
+  178 LoC, 2011-05-24 4d5f347 combine-diff: handle binary files as binary
+   88 LoC, 2011-05-24 0508fe5 combine-diff: respect textconv attributes
+   75 LoC, 2011-05-27 00ebc97 t: test subject handling in format-patch / am pipeline
+   72 LoC, 2011-06-03 3b36854 t: add tests for cloning remotes with detached HEAD
+................................................................................
+  1) 33 commits 2682 LoC around 2011-12-11
+  706 LoC, 2011-12-10 abca927 introduce credentials API
+  176 LoC, 2011-12-10 a6fc9fd docs: end-user documentation for the credential subsystem
+  748 LoC, 2011-12-10 e277097 credentials: add "cache" helper
+  216 LoC, 2011-12-10 71e1b4b credentials: add "store" helper
+  183 LoC, 2011-12-10 34961d3 contrib: add credential helper for OS X Keychain
+................................................................................
+  8) 4 commits 613 LoC around 2012-12-29
+   91 LoC, 2012-12-20 823ab40 add global --literal-pathspecs option
+    7 LoC, 2012-12-30 b018ff6 unpack-trees: fix "read-tree -u --reset A B" with conflicted index
+  510 LoC, 2013-01-04 e1b6dbb Makefile: hoist uname autodetection to config.mak.uname
+    5 LoC, 2013-01-06 709ca73 run-command: encode signal death as a positive integer
+................................................................................
+  6) 38 commits 655 LoC around 2013-03-30
+   34 LoC, 2013-03-26 7b6257b add test for streaming corrupt blobs
+   39 LoC, 2013-03-26 0e15ad9 add tests for cloning corrupted repositories
+   33 LoC, 2013-03-26 d9c31e1 streaming_write_entry: propagate streaming errors
+  148 LoC, 2013-04-02 2e433b7 t5516 (fetch-push): drop implicit arguments from helper functions
+   35 LoC, 2013-04-06 6d052d7 http: add HTTP_KEEP_ERROR option
+................................................................................
+  9) 10 commits 408 LoC around 2013-08-26
+  192 LoC, 2013-08-24 171bdac sha1-lookup: handle duplicate keys with GIT_USE_LOOKUP
+   81 LoC, 2013-08-24 3b910d0 add tests for indexing packs with delta cycles
+   18 LoC, 2013-08-24 b2ef3d9 test index-pack on packs with recoverable delta cycles
+   62 LoC, 2013-08-28 83bd743 write_index: optionally allow broken null sha1s
+   17 LoC, 2013-08-28 f972a16 mailmap: handle mailmap blobs without trailing newlines
+................................................................................
+ 10) 15 commits 413 LoC around 2013-12-26
+   65 LoC, 2013-12-22 ce2bc42 pack-objects: split add_object_entry
+  136 LoC, 2013-12-22 212f2ff t: add basic bitmap functionality tests
+   52 LoC, 2013-12-22 bbcefa1 t/perf: add tests for pack bitmaps
+   54 LoC, 2013-12-22 5d642e7 sha1_object_info_extended: provide delta base sha1s
+   48 LoC, 2013-12-22 65ea9c3 cat-file: provide %(deltabase) batch format
+................................................................................
+  5) 30 commits 352 LoC around 2014-06-09
+   26 LoC, 2014-06-11 3ffefb5 commit_tree: take a pointer/len pair rather than a const strbuf
+   39 LoC, 2014-06-11 152ff1c provide helpers to access the commit buffer
+   61 LoC, 2014-06-11 8597ea3 commit: record buffer length in cache
+   23 LoC, 2014-06-13 0fb370d provide a helper to free commit buffer
+   40 LoC, 2014-06-17 06ca0f4 t7510: check %G* pretty-format output
+................................................................................
+  7) 4 commits 104 LoC around 2014-10-03
+   22 LoC, 2014-10-08 f6c5a29 color_parse: do not mention variable name in error message
+   23 LoC, 2014-10-10 f1dd90b t5304: use test_path_is_* instead of "test -f"
+   17 LoC, 2014-10-10 8ad1652 t5304: use helper to report failure of "test foo = bar"
+   42 LoC, 2014-10-10 a136f6d test-lib.sh: support -x option for shell-tracing
+................................................................................
+  4) 60 commits 698 LoC around 2015-03-22
+   44 LoC, 2015-03-20 60687de t: fix moderate &&-chain breakage
+   70 LoC, 2015-03-20 99094a7 t: fix trivial &&-chain breakage
+   38 LoC, 2015-03-20 c21fc9d t: use test_expect_code instead of hand-rolled comparison
+  109 LoC, 2015-03-21 8b43fb1 t5312: test object deletion code paths in a corrupted repository
+   29 LoC, 2015-03-23 911ec99 run-command: introduce capture_command helper
+................................................................................
+  2) 71 commits 1160 LoC around 2015-09-23
+  239 LoC, 2015-09-17 a5adace transport: add a protocol-whitelist environment variable
+   52 LoC, 2015-09-17 33cfccb submodule: allow only certain protocols for submodule fetches
+   38 LoC, 2015-09-23 5088d3b transport: refactor protocol whitelist code
+   63 LoC, 2015-09-25 af49c6d add reentrant variants of sha1_to_hex and find_unique_abbrev
+   45 LoC, 2015-09-25 5096d49 convert trivial sprintf / strcpy calls to xsnprintf

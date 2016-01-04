@@ -1,36 +1,36 @@
-b'================================================================================'
-b'Ralf Thielow: 7 peaks 7431 LoC'
-b'................................................................................'
-b'  1) 8 commits 1998 LoC around 2012-05-04'
-b' 1692 LoC, 2012-04-26 01b127c l10n: Add the German translation team and initialize de.po'
-b'   27 LoC, 2012-04-28 839f7f8 l10n: Update German translation'
-b'  236 LoC, 2012-05-01 720e309 l10n: Initial German translation'
-b'   37 LoC, 2012-05-05 b9f3b4c l10n: de.po: collection of improvements'
-b'    2 LoC, 2012-05-05 9bdd868 l10n: add new members to German translation team'
-b'................................................................................'
-b'  2) 3 commits 2144 LoC around 2012-09-18'
-b' 1942 LoC, 2012-09-16 6d0e699 l10n: de.po: translate 825 new messages'
-b'  200 LoC, 2012-09-21 31b808a clone --single: limit the fetch refspec to fetched branch'
-b"    2 LoC, 2012-09-25 5f38e5e l10n: de.po: correct translation of a 'rebase' message"
-b'................................................................................'
-b'  4) 4 commits 548 LoC around 2013-08-01'
-b'  466 LoC, 2013-07-27 770c73f l10n: de.po: translate 99 new messages'
-b'    1 LoC, 2013-07-29 ac1998d git-rebase: fix typo'
-b'   77 LoC, 2013-08-07 4402f30 l10n: de.po: translate 5 messages'
-b'    4 LoC, 2013-08-10 67ed84f Documentation/git-merge-file: document option "--diff3"'
-b'................................................................................'
-b'  7) 1 commits 285 LoC around 2014-04-02'
-b'  285 LoC, 2014-04-02 74c17bb l10n: de.po: translate 45 new messages'
-b'................................................................................'
-b'  5) 3 commits 343 LoC around 2014-06-22'
-b'    2 LoC, 2014-06-12 795b9ff l10n: de.po: fix typo'
-b'    3 LoC, 2014-06-13 869951b l10n: de.po: improve message when switching branches'
-b'  338 LoC, 2014-06-21 d35ea4d l10n: de.po: translate 38 new messages'
-b'................................................................................'
-b'  6) 0 commits 0 LoC around 2014-10-05'
-b'................................................................................'
-b'  3) 4 commits 2113 LoC around 2015-09-10'
-b' 2002 LoC, 2015-09-08 e6e86ed l10n: de.po: translate 123 new messages'
-b'    1 LoC, 2015-09-12 7306b39 pull: don\'t mark values for option "rebase" for translation'
-b'    2 LoC, 2015-09-12 98c32bd tag, update-ref: improve description of option "create-reflog"'
-b'  108 LoC, 2015-09-17 2e0f366 l10n: de.po: translate 2 messages'
+================================================================================
+Ralf Thielow: 7 peaks 7431 LoC
+................................................................................
+  1) 8 commits 1998 LoC around 2012-05-04
+ 1692 LoC, 2012-04-26 01b127c l10n: Add the German translation team and initialize de.po
+   27 LoC, 2012-04-28 839f7f8 l10n: Update German translation
+  236 LoC, 2012-05-01 720e309 l10n: Initial German translation
+   37 LoC, 2012-05-05 b9f3b4c l10n: de.po: collection of improvements
+    2 LoC, 2012-05-05 9bdd868 l10n: add new members to German translation team
+................................................................................
+  2) 3 commits 2144 LoC around 2012-09-18
+ 1942 LoC, 2012-09-16 6d0e699 l10n: de.po: translate 825 new messages
+  200 LoC, 2012-09-21 31b808a clone --single: limit the fetch refspec to fetched branch
+    2 LoC, 2012-09-25 5f38e5e l10n: de.po: correct translation of a 'rebase' message
+................................................................................
+  4) 4 commits 548 LoC around 2013-08-01
+  466 LoC, 2013-07-27 770c73f l10n: de.po: translate 99 new messages
+    1 LoC, 2013-07-29 ac1998d git-rebase: fix typo
+   77 LoC, 2013-08-07 4402f30 l10n: de.po: translate 5 messages
+    4 LoC, 2013-08-10 67ed84f Documentation/git-merge-file: document option "--diff3"
+................................................................................
+  7) 1 commits 285 LoC around 2014-04-02
+  285 LoC, 2014-04-02 74c17bb l10n: de.po: translate 45 new messages
+................................................................................
+  5) 3 commits 343 LoC around 2014-06-22
+    2 LoC, 2014-06-12 795b9ff l10n: de.po: fix typo
+    3 LoC, 2014-06-13 869951b l10n: de.po: improve message when switching branches
+  338 LoC, 2014-06-21 d35ea4d l10n: de.po: translate 38 new messages
+................................................................................
+  6) 0 commits 0 LoC around 2014-10-05
+................................................................................
+  3) 4 commits 2113 LoC around 2015-09-10
+ 2002 LoC, 2015-09-08 e6e86ed l10n: de.po: translate 123 new messages
+    1 LoC, 2015-09-12 7306b39 pull: don't mark values for option "rebase" for translation
+    2 LoC, 2015-09-12 98c32bd tag, update-ref: improve description of option "create-reflog"
+  108 LoC, 2015-09-17 2e0f366 l10n: de.po: translate 2 messages

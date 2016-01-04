@@ -1,48 +1,48 @@
-b'================================================================================'
-b'Michael Haggerty: 8 peaks 8421 LoC'
-b'................................................................................'
-b'  8) 14 commits 159 LoC around 2010-01-08'
-b'   15 LoC, 2010-01-13 05c95db lib-rebase: Allow comments and blank lines to be added to the rebase script'
-b'   16 LoC, 2010-01-13 234b3da rebase-i: Ignore comments and blank lines in peek_next_command'
-b'   27 LoC, 2010-01-14 80883bb rebase -i: Document how temporary files are used'
-b'   18 LoC, 2010-01-14 a25eb13 rebase -i: For fixup commands without squashes, do not start editor'
-b'   38 LoC, 2010-01-14 6bdcd0d rebase -i: Retain user-edited commit messages after squash/fixup conflicts'
-b'................................................................................'
-b'  7) 7 commits 48 LoC around 2011-08-16'
-b'   10 LoC, 2011-08-13 86ab7f0 Add a file comment'
-b'   14 LoC, 2011-08-13 ba845b7 Document struct match_attr'
-b'    9 LoC, 2011-08-13 d175129 Change parse_attr() to take a pointer to struct attr_state'
-b'    4 LoC, 2011-08-13 85c4a0d Determine the start of the states outside of the pass loop'
-b'    9 LoC, 2011-08-13 d68e1c1 Unroll the loop over passes'
-b'................................................................................'
-b'  4) 23 commits 523 LoC around 2012-09-11'
-b'   29 LoC, 2012-09-09 3b08200 t5500: add tests of error output for missing refs'
-b'   45 LoC, 2012-09-13 e448fed string_list: add function string_list_append_nodup()'
-b'  215 LoC, 2012-09-13 ff919f9 string_list: add two new functions for splitting strings'
-b'   96 LoC, 2012-09-13 eb5f0c7 string_list: add a new function, filter_string_list()'
-b'   50 LoC, 2012-09-13 31d5451 string_list: add a new function, string_list_remove_duplicates()'
-b'................................................................................'
-b'  5) 1 commits 4 LoC around 2012-09-24'
-b'    4 LoC, 2012-09-18 1959bf6 string_list API: document what "sorted" means'
-b'................................................................................'
-b'  1) 2 commits 3063 LoC around 2013-07-15'
-b' 3050 LoC, 2013-07-14 bc501f6 git-multimail: an improved replacement for post-receive-email'
-b'   13 LoC, 2013-07-14 1d25e77 post-receive-email: deprecate script in favor of git-multimail'
-b'................................................................................'
-b'  3) 17 commits 619 LoC around 2014-04-08'
-b'   58 LoC, 2014-04-07 e23d843 update-ref --stdin: read the whole input at once'
-b'   78 LoC, 2014-04-07 3afcc46 update-ref.c: extract a new function, parse_next_sha1()'
-b'   63 LoC, 2014-04-07 caa4046 refs: add a concept of a reference transaction'
-b'   53 LoC, 2014-04-07 aebfc13 update-ref --stdin: reimplement using reference transactions'
-b'  225 LoC, 2014-04-08 b513f71 git-multimail: update to version 1.0.0'
-b'................................................................................'
-b'  6) 14 commits 275 LoC around 2014-12-10'
-b'   90 LoC, 2014-12-11 a46e41f t1400: add some more tests of "update-ref --stdin"\'s verify command'
-b'   12 LoC, 2014-12-12 60cc3c4 Extract function should_expire_reflog_ent()'
-b'   44 LoC, 2014-12-12 c48a163 expire_reflog(): extract two policy-related functions'
-b'   32 LoC, 2014-12-12 b729eff expire_reflog(): treat the policy callback data as opaque'
-b'   73 LoC, 2014-12-12 fa5b183 reflog_expire(): new function in the reference API'
-b'................................................................................'
-b'  2) 2 commits 3730 LoC around 2015-11-01'
-b' 3547 LoC, 2015-11-10 7bd9bcf refs: split filesystem-based refs code into a new file'
-b'  183 LoC, 2015-11-10 4cb7700 refs/refs-internal.h: new header file'
+================================================================================
+Michael Haggerty: 8 peaks 8421 LoC
+................................................................................
+  8) 14 commits 159 LoC around 2010-01-08
+   15 LoC, 2010-01-13 05c95db lib-rebase: Allow comments and blank lines to be added to the rebase script
+   16 LoC, 2010-01-13 234b3da rebase-i: Ignore comments and blank lines in peek_next_command
+   27 LoC, 2010-01-14 80883bb rebase -i: Document how temporary files are used
+   18 LoC, 2010-01-14 a25eb13 rebase -i: For fixup commands without squashes, do not start editor
+   38 LoC, 2010-01-14 6bdcd0d rebase -i: Retain user-edited commit messages after squash/fixup conflicts
+................................................................................
+  7) 7 commits 48 LoC around 2011-08-16
+   10 LoC, 2011-08-13 86ab7f0 Add a file comment
+   14 LoC, 2011-08-13 ba845b7 Document struct match_attr
+    9 LoC, 2011-08-13 d175129 Change parse_attr() to take a pointer to struct attr_state
+    4 LoC, 2011-08-13 85c4a0d Determine the start of the states outside of the pass loop
+    9 LoC, 2011-08-13 d68e1c1 Unroll the loop over passes
+................................................................................
+  4) 23 commits 523 LoC around 2012-09-11
+   29 LoC, 2012-09-09 3b08200 t5500: add tests of error output for missing refs
+   45 LoC, 2012-09-13 e448fed string_list: add function string_list_append_nodup()
+  215 LoC, 2012-09-13 ff919f9 string_list: add two new functions for splitting strings
+   96 LoC, 2012-09-13 eb5f0c7 string_list: add a new function, filter_string_list()
+   50 LoC, 2012-09-13 31d5451 string_list: add a new function, string_list_remove_duplicates()
+................................................................................
+  5) 1 commits 4 LoC around 2012-09-24
+    4 LoC, 2012-09-18 1959bf6 string_list API: document what "sorted" means
+................................................................................
+  1) 2 commits 3063 LoC around 2013-07-15
+ 3050 LoC, 2013-07-14 bc501f6 git-multimail: an improved replacement for post-receive-email
+   13 LoC, 2013-07-14 1d25e77 post-receive-email: deprecate script in favor of git-multimail
+................................................................................
+  3) 17 commits 619 LoC around 2014-04-08
+   58 LoC, 2014-04-07 e23d843 update-ref --stdin: read the whole input at once
+   78 LoC, 2014-04-07 3afcc46 update-ref.c: extract a new function, parse_next_sha1()
+   63 LoC, 2014-04-07 caa4046 refs: add a concept of a reference transaction
+   53 LoC, 2014-04-07 aebfc13 update-ref --stdin: reimplement using reference transactions
+  225 LoC, 2014-04-08 b513f71 git-multimail: update to version 1.0.0
+................................................................................
+  6) 14 commits 275 LoC around 2014-12-10
+   90 LoC, 2014-12-11 a46e41f t1400: add some more tests of "update-ref --stdin"'s verify command
+   12 LoC, 2014-12-12 60cc3c4 Extract function should_expire_reflog_ent()
+   44 LoC, 2014-12-12 c48a163 expire_reflog(): extract two policy-related functions
+   32 LoC, 2014-12-12 b729eff expire_reflog(): treat the policy callback data as opaque
+   73 LoC, 2014-12-12 fa5b183 reflog_expire(): new function in the reference API
+................................................................................
+  2) 2 commits 3730 LoC around 2015-11-01
+ 3547 LoC, 2015-11-10 7bd9bcf refs: split filesystem-based refs code into a new file
+  183 LoC, 2015-11-10 4cb7700 refs/refs-internal.h: new header file

@@ -16,5 +16,5 @@ Files in this Directory
 code-age.png: Graph of code age
 code-age.txt: Commits around peaks in code-age.png
 details.csv : Distribution of LoC over the directory structure
-newest.txt  : Newest commits
-oldest.txt  : Oldest surviving commits
+newest-commits.txt: Newest commits
+oldest-commits.txt: Oldest surviving commits

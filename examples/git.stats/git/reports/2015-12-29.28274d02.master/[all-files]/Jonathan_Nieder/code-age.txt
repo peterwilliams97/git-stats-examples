@@ -1,44 +1,44 @@
-b'================================================================================'
-b'Jonathan Nieder: 6 peaks 4869 LoC'
-b'................................................................................'
-b'  6) 24 commits 228 LoC around 2009-11-04'
-b'   25 LoC, 2009-10-31 6361824 Teach git var about GIT_PAGER'
-b'   46 LoC, 2009-10-31 8f4b576 Provide a build time default-editor setting'
-b"   19 LoC, 2009-11-10 99caeed Let 'git <command> -h' show usage without a git dir"
-b'   17 LoC, 2009-11-12 d33738d Do not use VISUAL editor on dumb terminals'
-b'   30 LoC, 2009-11-12 44fcb49 Teach git var about GIT_EDITOR'
-b'................................................................................'
-b'  1) 57 commits 1216 LoC around 2010-08-09'
-b'   60 LoC, 2010-08-05 18acb30 t6038 (merge.renormalize): style nitpicks'
-b'  136 LoC, 2010-08-05 f731488 t4200 (rerere): modernize style'
-b'  100 LoC, 2010-08-05 672d1b7 rerere: migrate to parse-options API'
-b'  102 LoC, 2010-08-17 9cbdd76 t6010 (merge-base): modernize style'
-b'   60 LoC, 2010-08-17 d834c96 t6200 (fmt-merge-msg): style nitpicks'
-b'................................................................................'
-b'  3) 8 commits 323 LoC around 2010-12-23'
-b'   26 LoC, 2010-12-13 4de0bbd t9300: use perl "head -c" clone in place of "dd bs=1 count=16000" kluge'
-b'  110 LoC, 2010-12-15 dbda3b1 bash: simple reimplementation of _get_comp_words_by_ref'
-b'   20 LoC, 2010-12-16 3bd2bcf glossary: define pathspec'
-b'  110 LoC, 2010-12-25 ddcc8c5 vcs-svn: skeleton of an svn delta parser'
-b'   35 LoC, 2010-12-28 c9d1c8b vcs-svn: improve reporting of input errors'
-b'................................................................................'
-b'  4) 6 commits 551 LoC around 2011-05-12'
-b'    3 LoC, 2011-05-02 239b5ed Documentation: clarify meaning of --html-path, --man-path, and --info-path'
-b'   24 LoC, 2011-05-07 73151df tests: eliminate unnecessary setup test assertions'
-b'    9 LoC, 2011-05-07 8c5cea0 tests: check git does not barf on merge.ff values for future versions of git'
-b'    3 LoC, 2011-05-15 8c2be75 add, merge, diff: do not use strcasecmp to compare config variable names'
-b'  511 LoC, 2011-05-20 36268b7 provide a copy of the LGPLv2.1'
-b'................................................................................'
-b'  5) 13 commits 495 LoC around 2011-12-02'
-b'   51 LoC, 2011-11-22 82433cd revert: write REVERT_HEAD pseudoref during conflicted revert'
-b'   92 LoC, 2011-11-23 539047c revert: introduce --abort to cancel a failed cherry-pick'
-b'  111 LoC, 2011-12-08 1af524e t7501 (commit): modernize style'
-b'   40 LoC, 2011-12-08 bc82189 test: commit --amend should honor --no-edit'
-b'  120 LoC, 2011-12-10 093a309 revert: allow cherry-pick --continue to commit before resuming'
-b'................................................................................'
-b'  2) 8 commits 2056 LoC around 2012-06-07'
-b'  175 LoC, 2012-05-28 c102f4c git-svn: move Git::SVN::Prompt into its own file'
-b'  594 LoC, 2012-05-28 a618032 git-svn: make Git::SVN::Fetcher a separate file'
-b'  545 LoC, 2012-06-10 8f9facf git-svn: make Git::SVN::Editor a separate file'
-b'  600 LoC, 2012-06-10 9f7ad14 git-svn: make Git::SVN::RA a separate file'
-b'   93 LoC, 2012-06-10 68f532f git-svn: use YAML format for mergeinfo cache when possible'
+================================================================================
+Jonathan Nieder: 6 peaks 4869 LoC
+................................................................................
+  6) 24 commits 228 LoC around 2009-11-04
+   25 LoC, 2009-10-31 6361824 Teach git var about GIT_PAGER
+   46 LoC, 2009-10-31 8f4b576 Provide a build time default-editor setting
+   19 LoC, 2009-11-10 99caeed Let 'git <command> -h' show usage without a git dir
+   17 LoC, 2009-11-12 d33738d Do not use VISUAL editor on dumb terminals
+   30 LoC, 2009-11-12 44fcb49 Teach git var about GIT_EDITOR
+................................................................................
+  1) 57 commits 1216 LoC around 2010-08-09
+   60 LoC, 2010-08-05 18acb30 t6038 (merge.renormalize): style nitpicks
+  136 LoC, 2010-08-05 f731488 t4200 (rerere): modernize style
+  100 LoC, 2010-08-05 672d1b7 rerere: migrate to parse-options API
+  102 LoC, 2010-08-17 9cbdd76 t6010 (merge-base): modernize style
+   60 LoC, 2010-08-17 d834c96 t6200 (fmt-merge-msg): style nitpicks
+................................................................................
+  3) 8 commits 323 LoC around 2010-12-23
+   26 LoC, 2010-12-13 4de0bbd t9300: use perl "head -c" clone in place of "dd bs=1 count=16000" kluge
+  110 LoC, 2010-12-15 dbda3b1 bash: simple reimplementation of _get_comp_words_by_ref
+   20 LoC, 2010-12-16 3bd2bcf glossary: define pathspec
+  110 LoC, 2010-12-25 ddcc8c5 vcs-svn: skeleton of an svn delta parser
+   35 LoC, 2010-12-28 c9d1c8b vcs-svn: improve reporting of input errors
+................................................................................
+  4) 6 commits 551 LoC around 2011-05-12
+    3 LoC, 2011-05-02 239b5ed Documentation: clarify meaning of --html-path, --man-path, and --info-path
+   24 LoC, 2011-05-07 73151df tests: eliminate unnecessary setup test assertions
+    9 LoC, 2011-05-07 8c5cea0 tests: check git does not barf on merge.ff values for future versions of git
+    3 LoC, 2011-05-15 8c2be75 add, merge, diff: do not use strcasecmp to compare config variable names
+  511 LoC, 2011-05-20 36268b7 provide a copy of the LGPLv2.1
+................................................................................
+  5) 13 commits 495 LoC around 2011-12-02
+   51 LoC, 2011-11-22 82433cd revert: write REVERT_HEAD pseudoref during conflicted revert
+   92 LoC, 2011-11-23 539047c revert: introduce --abort to cancel a failed cherry-pick
+  111 LoC, 2011-12-08 1af524e t7501 (commit): modernize style
+   40 LoC, 2011-12-08 bc82189 test: commit --amend should honor --no-edit
+  120 LoC, 2011-12-10 093a309 revert: allow cherry-pick --continue to commit before resuming
+................................................................................
+  2) 8 commits 2056 LoC around 2012-06-07
+  175 LoC, 2012-05-28 c102f4c git-svn: move Git::SVN::Prompt into its own file
+  594 LoC, 2012-05-28 a618032 git-svn: make Git::SVN::Fetcher a separate file
+  545 LoC, 2012-06-10 8f9facf git-svn: make Git::SVN::Editor a separate file
+  600 LoC, 2012-06-10 9f7ad14 git-svn: make Git::SVN::RA a separate file
+   93 LoC, 2012-06-10 68f532f git-svn: use YAML format for mergeinfo cache when possible

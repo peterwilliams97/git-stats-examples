@@ -1,34 +1,34 @@
-b'================================================================================'
-b'Jiang Xin: 9 peaks 12555 LoC'
-b'................................................................................'
-b'  2) 2 commits 3676 LoC around 2012-02-14'
-b' 1694 LoC, 2012-02-13 dce37b6 l10n: initial git.pot for 1.7.10 upcoming release'
-b' 1982 LoC, 2012-02-13 c04f5ac l10n: po for zh_CN'
-b'................................................................................'
-b'  1) 2 commits 4675 LoC around 2012-09-16'
-b' 3083 LoC, 2012-09-15 cc76011 l10n: Update git.pot (825 new, 24 removed messages)'
-b' 1592 LoC, 2012-09-15 ef317cd l10n: zh.CN.po: msgmerge git.pot (1142t195f630u)'
-b'................................................................................'
-b'  5) 16 commits 1405 LoC around 2013-07-02'
-b'   93 LoC, 2013-06-26 e02ca72 path.c: refactor relative_path(), not only strip prefix'
-b'   72 LoC, 2013-06-26 7a9b0b8 git-clean: add colors to interactive git-clean'
-b'  401 LoC, 2013-06-26 9f93e46 git-clean: use a git-add-interactive compatible UI'
-b'   68 LoC, 2013-06-26 d123926 git-clean: add filter by pattern interactive action'
-b'  456 LoC, 2013-06-26 db627fd test: add t7301 for git-clean--interactive'
-b'................................................................................'
-b'  7) 1 commits 352 LoC around 2014-10-23'
-b'  352 LoC, 2014-11-01 d07a63e l10n: git.pot: v2.2.0 round 1 (62 new, 23 removed)'
-b'................................................................................'
-b'  9) 0 commits 0 LoC around 2015-02-10'
-b'................................................................................'
-b'  8) 1 commits 218 LoC around 2015-02-16'
-b'  218 LoC, 2015-02-17 814ff31 l10n: zh_CN: translations for git v2.4.0-rc0'
-b'................................................................................'
-b'  4) 3 commits 2229 LoC around 2015-08-29'
-b' 1137 LoC, 2015-08-23 1b7f4a3 l10n: zh_CN: for git v2.6.0 l10n round 1'
-b'    1 LoC, 2015-08-27 1fb5a0e i18n: am: fix typo in description of -b option'
-b' 1091 LoC, 2015-09-05 df0617b l10n: git.pot: v2.6.0 round 1 (123 new, 41 removed)'
-b'................................................................................'
-b'  6) 0 commits 0 LoC around 2015-10-28'
-b'................................................................................'
-b'  3) 0 commits 0 LoC around 2015-11-30'
+================================================================================
+Jiang Xin: 9 peaks 12555 LoC
+................................................................................
+  2) 2 commits 3676 LoC around 2012-02-14
+ 1694 LoC, 2012-02-13 dce37b6 l10n: initial git.pot for 1.7.10 upcoming release
+ 1982 LoC, 2012-02-13 c04f5ac l10n: po for zh_CN
+................................................................................
+  1) 2 commits 4675 LoC around 2012-09-16
+ 3083 LoC, 2012-09-15 cc76011 l10n: Update git.pot (825 new, 24 removed messages)
+ 1592 LoC, 2012-09-15 ef317cd l10n: zh.CN.po: msgmerge git.pot (1142t195f630u)
+................................................................................
+  5) 16 commits 1405 LoC around 2013-07-02
+   93 LoC, 2013-06-26 e02ca72 path.c: refactor relative_path(), not only strip prefix
+   72 LoC, 2013-06-26 7a9b0b8 git-clean: add colors to interactive git-clean
+  401 LoC, 2013-06-26 9f93e46 git-clean: use a git-add-interactive compatible UI
+   68 LoC, 2013-06-26 d123926 git-clean: add filter by pattern interactive action
+  456 LoC, 2013-06-26 db627fd test: add t7301 for git-clean--interactive
+................................................................................
+  7) 1 commits 352 LoC around 2014-10-23
+  352 LoC, 2014-11-01 d07a63e l10n: git.pot: v2.2.0 round 1 (62 new, 23 removed)
+................................................................................
+  9) 0 commits 0 LoC around 2015-02-10
+................................................................................
+  8) 1 commits 218 LoC around 2015-02-16
+  218 LoC, 2015-02-17 814ff31 l10n: zh_CN: translations for git v2.4.0-rc0
+................................................................................
+  4) 3 commits 2229 LoC around 2015-08-29
+ 1137 LoC, 2015-08-23 1b7f4a3 l10n: zh_CN: for git v2.6.0 l10n round 1
+    1 LoC, 2015-08-27 1fb5a0e i18n: am: fix typo in description of -b option
+ 1091 LoC, 2015-09-05 df0617b l10n: git.pot: v2.6.0 round 1 (123 new, 41 removed)
+................................................................................
+  6) 0 commits 0 LoC around 2015-10-28
+................................................................................
+  3) 0 commits 0 LoC around 2015-11-30

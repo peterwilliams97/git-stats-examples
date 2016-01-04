@@ -1,38 +1,38 @@
-b'================================================================================'
-b'Peter Krefting: 10 peaks 10268 LoC'
-b'................................................................................'
-b'  4) 3 commits 1357 LoC around 2008-03-16'
-b'  691 LoC, 2008-03-14 0212242 git-gui: Regenerated po template and merged translations with it'
-b'   79 LoC, 2008-03-14 9065c36 git-gui: updated Swedish translation'
-b'  587 LoC, 2008-03-15 b3449ae gitk: Initial Swedish translation.'
-b'................................................................................'
-b' 10) 0 commits 0 LoC around 2009-08-26'
-b'................................................................................'
-b'  7) 2 commits 456 LoC around 2009-09-06'
-b'  412 LoC, 2009-09-03 2b72ccb Add script for importing bits-and-pieces to Git.'
-b'   44 LoC, 2009-09-03 7e78795 import-tars: Allow per-tar author and commit message.'
-b'................................................................................'
-b'  2) 3 commits 1709 LoC around 2010-09-14'
-b' 1593 LoC, 2010-09-13 0eb8fa3 po/sv.po: add Swedish translation'
-b'  109 LoC, 2010-09-13 421a31e git-gui: Update Swedish translation (521t).'
-b'    7 LoC, 2010-09-13 1cca16e gitk: Update Swedish translation (290t)'
-b'................................................................................'
-b'  6) 2 commits 637 LoC around 2012-03-09'
-b'  634 LoC, 2012-03-08 6874b9e Update Swedish translation (732t0f0u).'
-b'    3 LoC, 2012-03-15 0e641b1 Update Swedish translation (724t0f0u).'
-b'................................................................................'
-b'  1) 2 commits 2440 LoC around 2012-09-23'
-b' 2437 LoC, 2012-09-22 1414786 Update Swedish translation (1967t0f0u)'
-b'    3 LoC, 2012-09-26 4e02667 l10n: Fixes to Swedish translation'
-b'................................................................................'
-b'  9) 1 commits 440 LoC around 2013-08-03'
-b'  440 LoC, 2013-08-06 aa4e5fe l10n: Update Swedish translation (2135t0f0u)'
-b'................................................................................'
-b'  8) 1 commits 403 LoC around 2014-11-03'
-b'  403 LoC, 2014-11-02 5331bfd l10n: sv.po: Update Swedish translation (2296t0f0u)'
-b'................................................................................'
-b'  5) 1 commits 1208 LoC around 2015-09-12'
-b' 1208 LoC, 2015-09-10 d8455d1 l10n: sv.po: Update Swedish translation (2441t0f0u)'
-b'................................................................................'
-b'  3) 1 commits 1618 LoC around 2015-12-14'
-b' 1618 LoC, 2015-12-18 fbc63eb l10n: sv.po: Update Swedish translation (2477t0f0u)'
+================================================================================
+Peter Krefting: 10 peaks 10268 LoC
+................................................................................
+  4) 3 commits 1357 LoC around 2008-03-16
+  691 LoC, 2008-03-14 0212242 git-gui: Regenerated po template and merged translations with it
+   79 LoC, 2008-03-14 9065c36 git-gui: updated Swedish translation
+  587 LoC, 2008-03-15 b3449ae gitk: Initial Swedish translation.
+................................................................................
+ 10) 0 commits 0 LoC around 2009-08-26
+................................................................................
+  7) 2 commits 456 LoC around 2009-09-06
+  412 LoC, 2009-09-03 2b72ccb Add script for importing bits-and-pieces to Git.
+   44 LoC, 2009-09-03 7e78795 import-tars: Allow per-tar author and commit message.
+................................................................................
+  2) 3 commits 1709 LoC around 2010-09-14
+ 1593 LoC, 2010-09-13 0eb8fa3 po/sv.po: add Swedish translation
+  109 LoC, 2010-09-13 421a31e git-gui: Update Swedish translation (521t).
+    7 LoC, 2010-09-13 1cca16e gitk: Update Swedish translation (290t)
+................................................................................
+  6) 2 commits 637 LoC around 2012-03-09
+  634 LoC, 2012-03-08 6874b9e Update Swedish translation (732t0f0u).
+    3 LoC, 2012-03-15 0e641b1 Update Swedish translation (724t0f0u).
+................................................................................
+  1) 2 commits 2440 LoC around 2012-09-23
+ 2437 LoC, 2012-09-22 1414786 Update Swedish translation (1967t0f0u)
+    3 LoC, 2012-09-26 4e02667 l10n: Fixes to Swedish translation
+................................................................................
+  9) 1 commits 440 LoC around 2013-08-03
+  440 LoC, 2013-08-06 aa4e5fe l10n: Update Swedish translation (2135t0f0u)
+................................................................................
+  8) 1 commits 403 LoC around 2014-11-03
+  403 LoC, 2014-11-02 5331bfd l10n: sv.po: Update Swedish translation (2296t0f0u)
+................................................................................
+  5) 1 commits 1208 LoC around 2015-09-12
+ 1208 LoC, 2015-09-10 d8455d1 l10n: sv.po: Update Swedish translation (2441t0f0u)
+................................................................................
+  3) 1 commits 1618 LoC around 2015-12-14
+ 1618 LoC, 2015-12-18 fbc63eb l10n: sv.po: Update Swedish translation (2477t0f0u)

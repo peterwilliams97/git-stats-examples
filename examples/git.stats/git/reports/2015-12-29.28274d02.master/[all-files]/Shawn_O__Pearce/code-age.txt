@@ -1,50 +1,50 @@
-b'================================================================================'
-b'Shawn O. Pearce: 8 peaks 8602 LoC'
-b'................................................................................'
-b'  5) 23 commits 903 LoC around 2006-08-17'
-b'   42 LoC, 2006-08-08 6bb5b32 Implemented branch handling and basic tree support in fast-import.'
-b'  442 LoC, 2006-08-14 463acbe Added tree and commit writing to fast-import.'
-b'  129 LoC, 2006-08-15 c44cdc7 Converted fast-import to a text based protocol.'
-b'   52 LoC, 2006-08-23 d839716 Added mark store/find to fast-import.'
-b"   58 LoC, 2006-08-24 72303d4 Implemented 'tag' command in fast-import."
-b'................................................................................'
-b'  4) 41 commits 475 LoC around 2007-01-07'
-b'   41 LoC, 2006-12-31 27086d0 Add test case for update hooks in receive-pack.'
-b'   29 LoC, 2007-01-12 62b6f48 Support creation of merge commits in fast-import.'
-b'   74 LoC, 2007-01-14 8713ab3 Improve git-describe performance by reducing revision listing.'
-b'   35 LoC, 2007-01-15 7bfe6e2 Implemented manual packfile switching in fast-import.'
-b'   32 LoC, 2007-01-16 8455e48 Use .keep files in fast-import during processing.'
-b'................................................................................'
-b'  3) 50 commits 1272 LoC around 2007-06-05'
-b"  117 LoC, 2007-05-29 61f82ce git-gui: Allow users to rename branches through 'branch -m'"
-b'  302 LoC, 2007-05-29 aa252f1 git-gui: Allow users to delete remote branches'
-b'   81 LoC, 2007-06-01 41bf23d git-gui: Display tooltips in blame viewer'
-b'  109 LoC, 2007-06-02 22c6769 git-gui: Allow digging through history in blame viewer'
-b'   68 LoC, 2007-06-03 172c92b git-gui: Run blame twice on the same file and display both outputs'
-b'................................................................................'
-b'  1) 33 commits 2408 LoC around 2007-10-07'
-b'   47 LoC, 2007-09-27 72a8e81 git-gui: Support a native Mac OS X application bundle'
-b'   54 LoC, 2007-10-05 68099ee git-gui: Refactor about dialog code into its own module'
-b' 1815 LoC, 2007-10-10 5736432 git-gui: Updated po strings based on current sources'
-b'   45 LoC, 2007-10-12 9c1b1b1 git-gui: Offer repository management features in menu bar'
-b'   73 LoC, 2007-10-13 51a41ac git-gui: Use proper Windows shortcuts instead of bat files'
-b'................................................................................'
-b'  6) 17 commits 614 LoC around 2008-02-13'
-b'  417 LoC, 2008-02-07 95b002e git-gui: Automatically spell check commit messages as the user types'
-b'   13 LoC, 2008-02-14 fbc63ea Include annotated tags in fast-import crash reports'
-b'   86 LoC, 2008-02-14 e7e5170 Update fast-import documentation to discuss crash reports'
-b'   16 LoC, 2008-02-21 de83f8c git-gui: Catch and display aspell startup failures to the user'
-b'   25 LoC, 2008-02-21 827743b git-gui: Gracefully display non-aspell version errors to users'
-b'................................................................................'
-b'  7) 1 commits 533 LoC around 2008-11-19'
-b'  533 LoC, 2008-11-17 bd45bd9 Update the po template'
-b'................................................................................'
-b'  2) 23 commits 1981 LoC around 2009-11-02'
-b'  193 LoC, 2009-10-31 ae4efe1 Move WebDAV HTTP push under remote-curl'
-b'  328 LoC, 2009-10-31 2f4038a Git-aware CGI to provide dumb HTTP transport'
-b'  243 LoC, 2009-10-31 556cfa3 Smart fetch and push over HTTP: server side'
-b'  289 LoC, 2009-10-31 de1a2fd Smart push over HTTP: client side'
-b'  202 LoC, 2009-10-31 7da4e22 test smart http fetch and push'
-b'................................................................................'
-b'  8) 1 commits 416 LoC around 2013-08-12'
-b'  416 LoC, 2013-08-21 4c6fffe Document the HTTP transport protocols'
+================================================================================
+Shawn O. Pearce: 8 peaks 8602 LoC
+................................................................................
+  5) 23 commits 903 LoC around 2006-08-17
+   42 LoC, 2006-08-08 6bb5b32 Implemented branch handling and basic tree support in fast-import.
+  442 LoC, 2006-08-14 463acbe Added tree and commit writing to fast-import.
+  129 LoC, 2006-08-15 c44cdc7 Converted fast-import to a text based protocol.
+   52 LoC, 2006-08-23 d839716 Added mark store/find to fast-import.
+   58 LoC, 2006-08-24 72303d4 Implemented 'tag' command in fast-import.
+................................................................................
+  4) 41 commits 475 LoC around 2007-01-07
+   41 LoC, 2006-12-31 27086d0 Add test case for update hooks in receive-pack.
+   29 LoC, 2007-01-12 62b6f48 Support creation of merge commits in fast-import.
+   74 LoC, 2007-01-14 8713ab3 Improve git-describe performance by reducing revision listing.
+   35 LoC, 2007-01-15 7bfe6e2 Implemented manual packfile switching in fast-import.
+   32 LoC, 2007-01-16 8455e48 Use .keep files in fast-import during processing.
+................................................................................
+  3) 50 commits 1272 LoC around 2007-06-05
+  117 LoC, 2007-05-29 61f82ce git-gui: Allow users to rename branches through 'branch -m'
+  302 LoC, 2007-05-29 aa252f1 git-gui: Allow users to delete remote branches
+   81 LoC, 2007-06-01 41bf23d git-gui: Display tooltips in blame viewer
+  109 LoC, 2007-06-02 22c6769 git-gui: Allow digging through history in blame viewer
+   68 LoC, 2007-06-03 172c92b git-gui: Run blame twice on the same file and display both outputs
+................................................................................
+  1) 33 commits 2408 LoC around 2007-10-07
+   47 LoC, 2007-09-27 72a8e81 git-gui: Support a native Mac OS X application bundle
+   54 LoC, 2007-10-05 68099ee git-gui: Refactor about dialog code into its own module
+ 1815 LoC, 2007-10-10 5736432 git-gui: Updated po strings based on current sources
+   45 LoC, 2007-10-12 9c1b1b1 git-gui: Offer repository management features in menu bar
+   73 LoC, 2007-10-13 51a41ac git-gui: Use proper Windows shortcuts instead of bat files
+................................................................................
+  6) 17 commits 614 LoC around 2008-02-13
+  417 LoC, 2008-02-07 95b002e git-gui: Automatically spell check commit messages as the user types
+   13 LoC, 2008-02-14 fbc63ea Include annotated tags in fast-import crash reports
+   86 LoC, 2008-02-14 e7e5170 Update fast-import documentation to discuss crash reports
+   16 LoC, 2008-02-21 de83f8c git-gui: Catch and display aspell startup failures to the user
+   25 LoC, 2008-02-21 827743b git-gui: Gracefully display non-aspell version errors to users
+................................................................................
+  7) 1 commits 533 LoC around 2008-11-19
+  533 LoC, 2008-11-17 bd45bd9 Update the po template
+................................................................................
+  2) 23 commits 1981 LoC around 2009-11-02
+  193 LoC, 2009-10-31 ae4efe1 Move WebDAV HTTP push under remote-curl
+  328 LoC, 2009-10-31 2f4038a Git-aware CGI to provide dumb HTTP transport
+  243 LoC, 2009-10-31 556cfa3 Smart fetch and push over HTTP: server side
+  289 LoC, 2009-10-31 de1a2fd Smart push over HTTP: client side
+  202 LoC, 2009-10-31 7da4e22 test smart http fetch and push
+................................................................................
+  8) 1 commits 416 LoC around 2013-08-12
+  416 LoC, 2013-08-21 4c6fffe Document the HTTP transport protocols
