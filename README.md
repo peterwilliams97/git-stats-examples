@@ -45,39 +45,33 @@ file) in revision `28274d02`, the `git` repository `master` branch on 2015-12-29
 The horizontal axis is date and the vertical axis is LoC /day. This means the area under the curve
 between two dates is the LoC surviving from the period bounded by those datess.
 
-You can see that some of Guido's C code from 1991 survives in the current Python 2.7 revision as
-does code up to 2008.
+You can see that some code from 2006 survives in the current git master branch.
 
 ![Age graph](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/code-age.png)
 
 
-##### 2) [code-age.txt](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/Guido_van_Rossum/code-age.txt) lists the commits in the peaks in code-age.png
+##### 2) [code-age.txt](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/code-age.txt) lists the commits in the peaks in code-age.png
 
     ================================================================================
-    Guido van Rossum: 10 peaks 12971 LoC
+    [all-authors]: 10 peaks 117654 LoC
     ................................................................................
-      2) 4 commits 941 LoC around 1991-08-10
-      828 LoC, 1991-08-07 f133238 Initial revision
-       31 LoC, 1991-08-08 a110409 Adde get_mouse and find_first/find_last (by robertl)
-       76 LoC, 1991-08-08 f33866a Lots of cosmetic changes. Lots of small bugfixes (lint!). Made bgn_group and end_group form methods instead of top-level functions.
-        6 LoC, 1991-08-08 9bec514 Fixed almost all list errors.
-
-        ...
+      5) 187 commits 12253 LoC around 2007-07-18
+     1025 LoC, 2007-07-21 90a7149 German translation for git-gui
+     1006 LoC, 2007-07-22 e79bbfe Add po/git-gui.pot
+      992 LoC, 2007-07-22 4fe7626 Italian translation of git-gui
+     1095 LoC, 2007-07-25 2340a74 Japanese translation of git-gui
+     1150 LoC, 2007-07-27 f6b7de2 Hungarian translation of git-gui
     ................................................................................
-      1) 21 commits 4133 LoC around 1997-04-08
-      111 LoC, 1997-04-02 783828f Added replace() implementation by Perry Stoll (debugged and reformatted by me).
-     2540 LoC, 1997-04-04 333c03c New version by Sjoerd, with support for IRIX 6 audio library.
-       23 LoC, 1997-04-10 dc02de7 Unknown changes by Jim Fulton.
-     1065 LoC, 1997-04-10 7e5a815 Jim Fulton's version 2.2.
-      295 LoC, 1997-04-12 db0be79 Completely revamped the way the default path is constructed.
-
+     10) 130 commits 9705 LoC around 2009-06-03
+      135 LoC, 2009-05-26 3902985 t5500: Modernize test style
+     7040 LoC, 2009-06-01 f0ed822 Add custom memory allocator to MinGW and MacOS builds
+      124 LoC, 2009-06-04 195643f Add 'git svn reset' to unwind 'git svn fetch'
+      127 LoC, 2009-06-06 2264dfa http*: add helper methods for fetching packs
+      288 LoC, 2009-06-06 5424bc5 http*: add helper methods for fetching objects (loose)
+    ................................................................................
         ...
 
-##### 3) [oldest.txt](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/Guido_van_Rossum/oldest.txt) lists oldest commits in the code in question.
-
-Guido's oldest C code commit that survives in the 2.7 branch is from October 1990. You can also see
-that 2019 of his C commits survive, probably only partially). These remnants comprise 78,000
-lines of C (i.e. `*.c`, `*.cpp` and `*.h`).
+##### 3) [oldest-commits.txt](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/oldest-commits.txt) lists the oldest commits in the code in question.
 
     ================================================================================
     Guido van Rossum: 2109 commits 78288 LoC
@@ -95,24 +89,22 @@ lines of C (i.e. `*.c`, `*.cpp` and `*.h`).
 
         ...
 
-##### 4) [newest.txt](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/Guido_van_Rossum/newest.txt) lists newest commits in the code in question.
-
-Guido's last C code commit that survives in the 2.7 branch is from November 2008
+##### 4) [newest-commits.txt](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/newest-commits.txt) lists the oldest commits in the code in question.
 
     ================================================================================
-    Guido van Rossum: 2109 commits 78288 LoC
+    [all-authors]: 23743 commits 764802 LoC
     ................................................................................
-        3 LoC, 2008-09-11 e9f5f91 - Issue #3629: Fix sre "bytecode" validator for an end case.   Reviewed by Amaury.
-        4 LoC,   Lib/test/test_re.py
-        3 LoC,   Modules/_sre.c
-        2 LoC,   Misc/NEWS
+       12 LoC, 2015-12-29 28274d0 Git 2.7-rc3
+       11 LoC,   Documentation/RelNotes/2.7.0.txt
+        1 LoC,   GIT-VERSION-GEN
     ................................................................................
-       16 LoC, 2008-08-20 5512f4f Issue 1179: [CVE-2007-4965] Integer overflow in imageop module.
-       16 LoC,   Modules/imageop.c
+      119 LoC, 2015-12-28 c5e5e68 l10n: Updated Bulgarian translation of git (2477t,0f,0u)
+      119 LoC,   po/bg.po
+    ................................................................................
 
        ...
 
-##### 5) [details.csv](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/Guido_van_Rossum/details.csv) attempts to show where the code is distributed through the source tree.
+##### 5) [details.csv](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/details.csv) attempts to show where the code is distributed through the source tree.
 
 <table>
 <tr><th>dir</th><th>LoC</th><th>frac</th></tr>
