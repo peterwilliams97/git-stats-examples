@@ -1,6 +1,5 @@
 # git-stats-examples
-Examples for the [git-stats]https://github.com/peterwilliams97/git-stats repository which currently
-contains one script [code-age.py](https://github.com/peterwilliams97/git-stats/blob/master/code-age.py).
+Examples for the [git-stats](https://github.com/peterwilliams97/git-stats) repository.  This repository currently contains one script [code-age.py](https://github.com/peterwilliams97/git-stats/blob/master/code-age.py).
 
 code-age.py analyzes the age of files in a git repository and writes some reports and draws some graphs about them.
 
@@ -11,17 +10,29 @@ NOTE: __LoC__ is short for Lines of Code.
 e.g. For repository [cpython](https://github.com/python/cpython.git)
 
     [root]                                    Defaults to ~/git.stats
-      ├── cpython                             Directory for https://github.com/python/cpython.git
-      │   └── reports
-      │       ├── 2015-12-22.4120e146.2_7     Revision `4120e146` which was created on 2015-12-22 on
-      │       │   │                           on branch `2.7`.
-      │       │   └── __c.__cpp.__h           Report on *.c, *.cpp and *.h files in this revision
-      │       │       ├── Guido_van_Rossum    Sub-report on author `Guido van Rossum`
-      │       │       │   ├── code-age.png    Graph of code age. LoC / day vs date
-      │       │       │   ├── code-age.txt    List of commits in the peaks in the code-age.png graph
-      │       │       │   ├── details.csv     LoC in each directory in for these files and authors
-      │       │       │   ├── newest.txt      List of newest commits for these files and authors
-      │       │       │   └── oldest.txt      List of oldest commits for these files and authors
+      └── git                                 Directory for https://github.com/git/git.git
+          └── reports
+              └── 2015-12-29.28274d02.master  Revision 28274d02 which was created on 2015-12-22 on
+                  │                           on branch "master".
+                  └── [\[all-files\](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)             Report on all files in this revision
+                      ├── README              Summary of files in [all-files]
+                      ├── author_ext_files.csv Number of files of given extension in which author has code
+                      ├── author_ext_loc.csv  Number of LoC author in files of given extension by author
+                      ├── [all-authors]       Sub-report on all authors
+                      │   ├── README          Summary of files in [all-authors]
+                      │   ├── code-age.png    Graph of code age. LoC / day vs date
+                      │   ├── code-age.txt    List of commits in the peaks in the code-age.png graph
+                      │   ├── details.csv     LoC in each directory in for these files and authors
+                      │   ├── newest-commits.txt List of newest commits for these files and authors
+                      │   └── oldest-commits.txt List of oldeswest commits for these files and authors
+                ....
+                      ├── Alex_Henrie         Sub-report on author Alex Henrie
+                      │   ├── README
+                      │   ├── code-age.png
+                      │   ├── code-age.txt
+                      │   ├── details.csv
+                      │   ├── newest.txt
+                      │   └── oldest.txt
 
 
 ### A closer look at [2015-12-29.28274d02.master/\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)
