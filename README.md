@@ -35,7 +35,23 @@ e.g. For repository [cpython](https://github.com/python/cpython.git)
                       │   └── oldest.txt
 
 
-### A closer look at [2015-12-29.28274d02.master/\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D)
+### Top level files [2015-12-29.28274d02.master/\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/)
+
+##### 1) [author_ext_files.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_files.csv) shows numbers of source files by extension and author
+
+
+
+This shows the number of files in which each author has one or more lines of code in the revision
+being reported. (This table shown on this page is truncated.)
+
+##### 2) [author_ext_loc.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_loc.csv) shows LoC by extension and author
+
+<table><tr><th></th><th>Total</th><th>.c</th><th>.sh</th><th>.po</th><th>.txt</th></tr><tr><th>Total</th><th>764802.0</th><th>198828.0</th><th>172727.0</th><th>159684.0</th><th>81591.0</th></tr><tr><th>Junio C Hamano</th><th>115080.0</th><th>37433</th><th>27753</th><th>6220</th><th>28929</th></tr><tr><th>Jeff King</th><th>31776.0</th><th>13134</th><th>11724</th><th>0</th><th>3175</th></tr><tr><th>Jiang Xin</th><th>24649.0</th><th>1170</th><th>718</th><th>11256</th><th>81</th></tr><tr><th>Shawn O. Pearce</th><th>24636.0</th><th>5392</th><th>4748</th><th>1519</th><th>2353</th></tr><tr><th>Nguyễn Thái Ngọc Duy</th><th>20908.0</th><th>13226</th><th>5499</th><th>0</th><th>1233</th></tr><tr><th>Peter Krefting</th><th>16243.0</th><th>4</th><th>11</th><th>15718</th><th>0</th></tr><tr><th>Alexander Shopov</th><th>16182.0</th><th>0</th><th>0</th><th>16149</th><th>29</th></tr><tr><th>Johannes Schindelin</th><th>15963.0</th><th>7531</th><th>4996</th><th>0</th><th>1345</th></tr><tr><th>Jonathan Nieder</th><th>15266.0</th><th>3111</th><th>6625</th><th>0</th><th>1914</th></tr><tr><th>Ævar Arnfjörð Bjarmason</th><th>14688.0</th><th>11093</th><th>1306</th><th>93</th><th>107</th></tr></table>
+
+This shows the lines of code in the revision being reported. (This table shown on this page is truncated.)
+
+
+### A closer look at [2015-12-29.28274d02.master/\[all-files\]/\[all-authors\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D)
 
 This directory contains files that report on the age of all authors code for all files (i.e. every
 file) in revision `28274d02`, the `git` repository `master` branch on 2015-12-29.
@@ -106,36 +122,13 @@ You can see that some code from 2006 survives in the current git master branch.
 
 ##### 5) [details.csv](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/details.csv) attempts to show where the code is distributed through the source tree.
 
-<table>
-<tr><th>dir</th><th>LoC</th><th>frac</th></tr>
-<tr><td></td><td>78288</td><td>0</td></tr>
-<tr><td>Modules</td><td>33059</td><td>0.422274167178</td></tr>
-<tr><td>Objects</td><td>17963</td><td>0.22944768036</td></tr>
-<tr><td>Python</td><td>13024</td><td>0.166360106274</td></tr>
-<tr><td>Include</td><td>4256</td><td>0.0543633762518</td></tr>
-<tr><td>PC</td><td>3583</td><td>0.045766911915</td></tr>
-<tr><td>Parser</td><td>3248</td><td>0.0414878397711</td></tr>
-</table>
+<table><tr><th>dir</th><th>LoC</th><th>frac</th></tr><tr><th></th><th>764802</th><th>1</th></tr><tr><th>t</th><th>167955</th><th>0.21960585877128982</th></tr><tr><th>po</th><th>120787</th><th>0.15793237988394382</th></tr><tr><th>Documentation</th><th>82641</th><th>0.1080554182651196</th></tr><tr><th>builtin</th><th>55958</th><th>0.07316664966880317</th></tr><tr><th>git-gui</th><th>53934</th><th>0.0705202130747566</th></tr><tr><th>git-gui/po</th><th>37087</th><th>0.6876367412022101</th></tr><tr><th>contrib</th><th>35890</th><th>0.04692717853771303</th></tr><tr><th>gitk-git</th><th>29385</th><th>0.03842170914825013</th></tr><tr><th>compat</th><th>25884</th><th>0.03384405375508955</th></tr><tr><th>Documentation/RelNotes</th><th>19709</th><th>0.2384893696833291</th></tr></table>
 
-* The source tree of Guido's C files contains 78288 LoC
-* Its subdirectory `Modules` contains 33059 LoC
+* The entire source tree of Guido's C files contains 764802 LoC
+* Its subdirectory `Documentation` contains 82641 LoC
 * etc
 
 
-### Top level files [2015-12-22.4120e146.2_7/__c.__cpp.__h/](https://github.com/peterwilliams97/git-stats/tree/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/)
-
-##### 1) [ext_author_files.csv](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/ext_author_files.csv) shows numbers of source files by extension and author
-
-<table><tr><th></th><th>Total</th><th>Guido van Rossum</th><th>Martin v. Löwis</th><th>Tim Peters</th><th>Neal Norwitz</th></tr><tr><th>Total</th><th>15092</th><th>3252</th><th>1239</th><th>962</th><th>770</th></tr><tr><th>.c</th><th>12887</th><th>2744</th><th>1013</th><th>829</th><th>708</th></tr><tr><th>.h</th><th>2205</th><th>508</th><th>226</th><th>133</th><th>62</th></tr></table>
-
-This shows the number of files in which each author has one or more lines of code in the revision
-being reported. (This table shown on this page is truncated.)
-
-##### 2) [ext_author_loc.csv](https://github.com/peterwilliams97/git-stats/blob/master/examples/git.stats/cpython/reports/2015-12-22.4120e146.2_7/__c.__cpp.__h/ext_author_loc.csv) shows LoC by extension and author
-
-<table><tr><th></th><th>Total</th><th>Jack Jansen</th><th>Guido van Rossum</th><th>Martin v. Löwis</th><th>Thomas Heller</th></tr><tr><th>Total</th><th>549292</th><th>79897</th><th>78288</th><th>49728</th><th>25848</th></tr><tr><th>.c</th><th>464959</th><th>79578</th><th>70939</th><th>40661</th><th>22891</th></tr><tr><th>.h</th><th>84333</th><th>319</th><th>7349</th><th>9067</th><th>2957</th></tr></table>
-
-This shows the lines of code in the revision being reported. (This table shown on this page is truncated.)
 
 ### code-age.py usage
 
