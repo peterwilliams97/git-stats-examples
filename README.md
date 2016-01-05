@@ -1,5 +1,6 @@
 # git-stats-examples
-Examples for the [git-stats](https://github.com/peterwilliams97/git-stats) repository.  This repository currently contains one script [code-age.py](https://github.com/peterwilliams97/git-stats/blob/master/code-age.py).
+Examples for the  [code-age.py](https://github.com/peterwilliams97/git-stats/blob/master/code-age.py)
+script in the [git-stats](https://github.com/peterwilliams97/git-stats) repository.
 
 code-age.py analyzes the age of files in a git repository and writes some reports and draws some graphs about them.
 
@@ -38,7 +39,9 @@ git source code:
 
 ### Top level files [2015-12-29.28274d02.master/\[all-files\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/)
 
-##### 1) [author_ext_files.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_files.csv) shows numbers of source files by extension and author
+##### 1) [author_ext_files.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_files.csv) shows numbers of source files by extension and author.
+
+<table><tr><th></th><th>Total</th><th>.c</th><th>.sh</th><th>.txt</th><th>.h</th></tr><tr><th>Total</th><th>40742.0</th><th>14352.0</th><th>9457.0</th><th>7276.0</th><th>2710.0</th></tr><tr><th>Junio C Hamano</th><th>7747.0</th><th>2779</th><th>1713</th><th>1973</th><th>504</th></tr><tr><th>Jeff King</th><th>3070.0</th><th>1479</th><th>853</th><th>296</th><th>291</th></tr><tr><th>Nguyễn Thái Ngọc Duy</th><th>1680.0</th><th>994</th><th>226</th><th>174</th><th>210</th></tr><tr><th>Shawn O. Pearce</th><th>1254.0</th><th>384</th><th>352</th><th>99</th><th>55</th></tr><tr><th>Jonathan Nieder</th><th>1159.0</th><th>300</th><th>373</th><th>305</th><th>62</th></tr><tr><th>Linus Torvalds</th><th>1088.0</th><th>770</th><th>78</th><th>16</th><th>136</th></tr><tr><th>Johannes Schindelin</th><th>1022.0</th><th>458</th><th>298</th><th>103</th><th>92</th></tr><tr><th>René Scharfe</th><th>761.0</th><th>514</th><th>104</th><th>60</th><th>73</th></tr><tr><th>Michael Haggerty</th><th>707.0</th><th>437</th><th>106</th><th>56</th><th>70</th></tr><tr><th>Thomas Rast</th><th>696.0</th><th>171</th><th>151</th><th>193</th><th>34</th></tr></table>
 
 This shows the number of files in which each author has one or more lines of code in the revision
 being reported. (This table shown on this page is truncated. [author_ext_files.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_files.csv) has the full table.)
