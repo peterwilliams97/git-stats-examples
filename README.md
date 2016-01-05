@@ -7,7 +7,8 @@ It writes reports in the directory structure given in [git.stats.tree.txt](https
 
 NOTE: __LoC__ is short for Lines of Code.
 
-e.g. For repository [cpython](https://github.com/python/cpython.git)
+e.g. For repository [git](https://github.com/python/cpython.git), which is a github mirror off the
+git source code:
 
     [root]                                    Defaults to ~/git.stats
       └── git                                 Directory for https://github.com/git/git.git
@@ -39,16 +40,15 @@ e.g. For repository [cpython](https://github.com/python/cpython.git)
 
 ##### 1) [author_ext_files.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_files.csv) shows numbers of source files by extension and author
 
-
-
 This shows the number of files in which each author has one or more lines of code in the revision
-being reported. (This table shown on this page is truncated.)
+being reported. (This table shown on this page is truncated. [author_ext_files.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_files.csv) has the full table.)
 
-##### 2) [author_ext_loc.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_loc.csv) shows LoC by extension and author
+##### 2) [author_ext_loc.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_loc.csv) shows LoC by extension and author.
 
 <table><tr><th></th><th>Total</th><th>.c</th><th>.sh</th><th>.po</th><th>.txt</th></tr><tr><th>Total</th><th>764802.0</th><th>198828.0</th><th>172727.0</th><th>159684.0</th><th>81591.0</th></tr><tr><th>Junio C Hamano</th><th>115080.0</th><th>37433</th><th>27753</th><th>6220</th><th>28929</th></tr><tr><th>Jeff King</th><th>31776.0</th><th>13134</th><th>11724</th><th>0</th><th>3175</th></tr><tr><th>Jiang Xin</th><th>24649.0</th><th>1170</th><th>718</th><th>11256</th><th>81</th></tr><tr><th>Shawn O. Pearce</th><th>24636.0</th><th>5392</th><th>4748</th><th>1519</th><th>2353</th></tr><tr><th>Nguyễn Thái Ngọc Duy</th><th>20908.0</th><th>13226</th><th>5499</th><th>0</th><th>1233</th></tr><tr><th>Peter Krefting</th><th>16243.0</th><th>4</th><th>11</th><th>15718</th><th>0</th></tr><tr><th>Alexander Shopov</th><th>16182.0</th><th>0</th><th>0</th><th>16149</th><th>29</th></tr><tr><th>Johannes Schindelin</th><th>15963.0</th><th>7531</th><th>4996</th><th>0</th><th>1345</th></tr><tr><th>Jonathan Nieder</th><th>15266.0</th><th>3111</th><th>6625</th><th>0</th><th>1914</th></tr><tr><th>Ævar Arnfjörð Bjarmason</th><th>14688.0</th><th>11093</th><th>1306</th><th>93</th><th>107</th></tr></table>
 
-This shows the lines of code in the revision being reported. (This table shown on this page is truncated.)
+This shows the lines of code in the revision being reported. (This table shown on this page is
+truncated. author_ext_loc.csv](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/author_ext_loc.csv) has the full table.)
 
 
 ### A closer look at [2015-12-29.28274d02.master/\[all-files\]/\[all-authors\]](https://github.com/peterwilliams97/git-stats-examples/tree/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D)
@@ -123,18 +123,3 @@ You can see that some code from 2006 survives in the current git master branch.
 ##### 5) [details.csv](https://github.com/peterwilliams97/git-stats-examples/blob/master/examples/git.stats/git/reports/2015-12-29.28274d02.master/%5Ball-files%5D/%5Ball-authors%5D/details.csv) attempts to show where the code is distributed through the source tree.
 
 <table><tr><th>dir</th><th>LoC</th><th>frac</th></tr><tr><th></th><th>764802</th><th>1</th></tr><tr><th>t</th><th>167955</th><th>0.21960585877128982</th></tr><tr><th>po</th><th>120787</th><th>0.15793237988394382</th></tr><tr><th>Documentation</th><th>82641</th><th>0.1080554182651196</th></tr><tr><th>builtin</th><th>55958</th><th>0.07316664966880317</th></tr><tr><th>git-gui</th><th>53934</th><th>0.0705202130747566</th></tr><tr><th>git-gui/po</th><th>37087</th><th>0.6876367412022101</th></tr><tr><th>contrib</th><th>35890</th><th>0.04692717853771303</th></tr><tr><th>gitk-git</th><th>29385</th><th>0.03842170914825013</th></tr><tr><th>compat</th><th>25884</th><th>0.03384405375508955</th></tr><tr><th>Documentation/RelNotes</th><th>19709</th><th>0.2384893696833291</th></tr></table>
-
-* The entire source tree of Guido's C files contains 764802 LoC
-* Its subdirectory `Documentation` contains 82641 LoC
-* etc
-
-
-
-### code-age.py usage
-
-* Copy code-age.py to your computer
-* Open a shell and cd to the root of the git repository you want to report
-* `python code-age.py` NOTE: This can take hours to run a big repository as it blames every file in the repository.
-* The location of the reports directory will be written to stdout
-* Optionally try some patterns e.g. `python code-age.py '*.py'`, `python code-age.py docs`
-
